@@ -1,0 +1,21 @@
+{
+  "fanSpeedStatus": "NotRunning",
+  "fanFaultCode": "NO_FAULT",
+  "aqDisplayLevel": "LEVEL_1",
+  "runTime3": "RUN_TIME",
+  "runTime2": "RUN_TIME",
+  "runTime1": "RUN_TIME",
+  "filter1Runtime": 70,
+  "filter2Runtime": 574,
+  "filter3Runtime": 1167,
+  "tiltSensorStatus": "OPERATING",
+  "mobileCtrlFlags": "ENABLED",
+  "scenarioMode": "Off",
+  "pM25Value": 39,
+  "isAlive": true,
+  "cleanTime": [
+    -1
+  ],
+  "cleanBeforeHomeEnable": false,
+  "timeToHome": "2015-10-10T09:30:00"
+}

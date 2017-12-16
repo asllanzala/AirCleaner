@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LoginCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/login_checkbox_selector</item>
+    </style>
+
+    <style name="LedCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/led_checkbox_selector</item>
+    </style>
+
+    <style name="PowerCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/power_checkbox_selector</item>
+    </style>
+
+    <style name="ModeCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@color/transparent</item>
+    </style>
+
+    <style name="text_17_000000">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/enroll_password_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

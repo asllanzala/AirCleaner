@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/list_item_security_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:focusable="false"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="@string/enroll_ssid_security"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/list_item_security_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="@string/enroll_ssid_security"
+        android:textSize="16sp"
+        />
+
+    <ImageView
+        android:id="@+id/list_item_network_lock_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:contentDescription="@null"
+        android:focusable="false"
+        android:src="@drawable/drop_down"/>
+
+</LinearLayout>

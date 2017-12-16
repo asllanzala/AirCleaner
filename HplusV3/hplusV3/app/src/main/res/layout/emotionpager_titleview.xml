@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/yesterday_view"-->
+        <!--android:layout_width="72dip"-->
+        <!--android:layout_height="20dip"-->
+        <!--android:background="@drawable/yesterday_background">-->
+        <!--<TextView-->
+            <!--android:id="@+id/yesterday_text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:text="@string/yesterday_str"-->
+            <!--android:textColor="@color/white"/>-->
+    <!--</RelativeLayout>-->
+    <RelativeLayout
+        android:id="@+id/yesterday_view"
+        android:layout_width="72dip"
+        android:visibility="invisible"
+        android:layout_height="20dip">
+        <TextView
+            android:id="@+id/yesterday_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/yesterday_str"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thisweek_view"
+        android:layout_width="72dip"
+        android:visibility="invisible"
+        android:layout_height="20dip">
+        <TextView
+            android:id="@+id/thisweek_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/this_week_str"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/thismonth_view"
+        android:layout_width="72dip"
+        android:visibility="invisible"
+        android:layout_height="20dip">
+        <TextView
+            android:id="@+id/thismonth_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/this_month_str"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sofar_view"
+        android:layout_width="72dip"
+        android:visibility="invisible"
+        android:layout_height="20dip">
+        <TextView
+            android:id="@+id/sofar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/so_far_str"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/one_title_view"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dip"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/yesterday_background"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/one_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/yesterday_str"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/one_title_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:text="@string/this_week_str"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/one_title_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/this_month_str"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/one_title_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/so_far_str"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/collected_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one_title_view"
+        android:layout_marginTop="5dip">
+        <TextView
+            android:id="@+id/collected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

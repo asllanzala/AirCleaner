@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <ImageView
+        android:id="@+id/home_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/moon_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/star_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_star"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <com.honeywell.hch.airtouchv2.framework.view.CitySiteView
+        android:id="@+id/city_site_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/faraway_mountain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:id="@+id/my_house_view"
+        android:layout_width="111dp"
+        android:layout_height="110dp"
+        android:layout_above="@id/nearby_mountain"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+            android:id="@+id/my_house_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:id="@+id/window_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="58dp">
+
+            <RelativeLayout
+                android:id="@+id/window_light_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/window03_innerlight_night"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/window02_outerglow_night"/>
+
+                <ImageView
+                    android:id="@+id/window_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/window01_night"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/window_day"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/nearby_mountain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:src="@drawable/image11"
+        android:scaleType="fitXY"/>
+
+
+
+    <com.honeywell.hch.airtouchv2.app.airtouch.view.AirTouchWorstDevice
+        android:id="@+id/device_worst"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_above="@id/my_house_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-15dp"
+        android:layout_marginRight="95dp"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/home_reminder_view"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/my_house_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginRight="105dp"
+        android:background="@drawable/small_pop"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/home_reminder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/open_device"
+            android:textColor="@color/enroll_blue"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <com.honeywell.hch.airtouchv2.app.airtouch.view.OutDoorWeather
+        android:id="@+id/outdoor_weather_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"/>
+
+    <com.honeywell.hch.airtouchv2.framework.view.HomeSkyView
+        android:id="@+id/sky_cell2"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

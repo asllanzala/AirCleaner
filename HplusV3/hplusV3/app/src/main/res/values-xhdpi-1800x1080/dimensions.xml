@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubblecontent_top_margin">30dp</dimen>
+    <dimen name="bubble_scroll_height">130dp</dimen>
+    <dimen name="popwindow_width">300dp</dimen>
+    <dimen name="popwidow_heightoffer">10dp</dimen>
+    <dimen name="bubble_topmargin">35dp</dimen>
+
+    <dimen name="bubble_leftmargin">35dp</dimen>
+    <dimen name="bubble_rightmargin">70dp</dimen>
+
+</resources>

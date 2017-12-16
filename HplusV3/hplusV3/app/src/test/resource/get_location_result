@@ -1,0 +1,60 @@
+[
+  {
+    "locationID": 8424,
+    "name": "Parentshome",
+    "streetAddress": "StreetAddress",
+    "city": "CHSC000000",
+    "state": "New York",
+    "country": "US",
+    "zipcode": "30030",
+    "type": "Commercial",
+    "devices": [],
+    "isLocationOwner": true
+  },
+  {
+    "locationID": 11024,
+    "name": "MyOffice",
+    "streetAddress": "StreetAddress",
+    "city": "CHGD070000",
+    "state": "New York",
+    "country": "US",
+    "zipcode": "30030",
+    "type": "Commercial",
+    "devices": [
+      {
+        "deviceID": 28237,
+        "name": "13",
+        "isUpgrading": false,
+        "isAlive": true,
+        "deviceType": 1048577,
+        "firmwareVersion": "01.00.00.14",
+        "macID": "14414601013B"
+      }
+    ],
+    "isLocationOwner": true
+  },
+  {
+    "locationID": 11038,
+    "name": "GrandpaHouse",
+    "streetAddress": "StreetAddress",
+    "city": "CHSH000000",
+    "state": "New York",
+    "country": "US",
+    "zipcode": "30030",
+    "type": "Commercial",
+    "devices": [],
+    "isLocationOwner": true
+  },
+  {
+    "locationID": 11398,
+    "name": "another homeww",
+    "streetAddress": "StreetAddress",
+    "city": "CHHA000000",
+    "state": "New York",
+    "country": "US",
+    "zipcode": "30030",
+    "type": "Commercial",
+    "devices": [],
+    "isLocationOwner": true
+  }
+]

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.honeywell.hch.airtouchv3.framework.app.activity.QRActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <SurfaceView
+                android:id="@+id/preview_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.google.zxing.client.android.ViewfinderView
+                android:id="@+id/viewfinder_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="show"
+                android:textSize="19sp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginBottom="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                />
+
+            <Button
+                android:id="@+id/skip_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="skip"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

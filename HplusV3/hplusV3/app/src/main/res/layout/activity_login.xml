@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="true"
+              android:background="@color/setting_bg"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/login_back_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/login_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/back"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/user_photo"/>
+
+    <TextView
+        android:id="@+id/user_nickname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Jeff"
+        android:textColor="@color/enroll_light_grey"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/login_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:id="@+id/login_prompt_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <Spinner
+                android:id="@+id/email_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/et_login_mobile"
+                android:background="@color/transparent">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/et_login_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:inputType="phone"
+                android:background="@color/transparent"
+                android:singleLine="true"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:hint="@string/mobile_phone_number"
+                android:maxLength="15"
+                android:textColorHint="@color/login_hint_text"/>
+
+            <!--<com.honeywell.air.app.views.AirTouchEditText-->
+                <!--android:id="@+id/et_login_email"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="17sp"-->
+                <!--app:edit_hint_value="@string/login_email"-->
+                <!--android:focusable="true"-->
+                <!--android:focusableInTouchMode="true" />-->
+
+            <Spinner
+                android:id="@+id/country_code_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignBottom="@+id/et_login_mobile"
+                android:background="@color/transparent">
+
+            </Spinner>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line"/>
+
+        <com.honeywell.hch.airtouchv3.framework.view.AirTouchEditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:textSize="17sp"
+            android:textColorHint="@color/login_hint_text"
+            app:edit_hint_value="@string/enroll_password"
+            android:checked="false"
+            android:focusable="false"/>
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true"-->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/enroll_next_button"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/checkbox_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom">
+
+            <CheckBox
+                android:id="@+id/remember_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                style="@style/LoginCheckBox"
+                android:checked="false"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/remember_checkbox_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/login_remember_password"
+                android:textColor="@drawable/enroll_skip_textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_forget_password"
+            android:textColor="@drawable/enroll_skip_textcolor"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/new_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_new_user"
+            android:textColor="@drawable/enroll_skip_textcolor"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

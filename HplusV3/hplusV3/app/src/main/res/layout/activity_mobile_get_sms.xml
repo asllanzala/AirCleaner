@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/setting_bg"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mobile_get_sms_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/mobile_get_sms_back_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/mobile_get_sms_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"/>
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/reset_password_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_password"
+                android:textColor="@color/enroll_blue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/user_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_photo"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/mobile_get_sms_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/login_prompt_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <com.honeywell.hch.airtouchv3.framework.view.AirTouchEditText
+                    android:id="@+id/sms_number_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:singleLine="true"
+                    android:textSize="17sp"
+                    app:edit_hint_value="@string/mobile_phone_number"/>
+
+                <Spinner
+                    android:id="@+id/country_code_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignBottom="@+id/sms_number_edit_text"
+                    android:background="@color/transparent">
+
+                </Spinner>
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line"/>
+
+            <Button
+                android:id="@+id/mobile_get_sms_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/enroll_next_button"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/get_sms_code"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/checkbox_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/agree_terms"
+                    style="@style/LoginCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:checked="false"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/agree_terms_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="bottom"
+                    android:text="@string/register_accept_terms"
+                    android:textColor="@drawable/enroll_skip_textcolor"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/password_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/mobile_message"
+                android:textStyle="italic"
+                android:textColor="@color/enroll_title_grey"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

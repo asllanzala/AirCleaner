@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="pull_to_refresh_pull_label" translatable="true">pull down to refresh</string>
+    <string name="pull_to_refresh_release_label" translatable="true">release to refresh</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="true">Loading&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="true">tap to refresh</string>
+    <string name="umeng_socialize_network_break_alert" translatable="true">Please connect network and retry！</string>
+    <string name="umeng_socialize_comment" translatable="true">comment</string>
+    <string name="umeng_socialize_comment_detail" translatable="true">comment detail</string>
+    <string name="umeng_socialize_back" translatable="true">back</string>
+    <string name="umeng_socialize_near_At" translatable="true">near \@friends</string>
+    <string name="umeng_socialize_friends" translatable="true">friends</string>
+    <string name="umeng_socialize_send" translatable="true">send</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="true">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="true">login fail&#8230;</string>
+    <string name="umeng_socialize_msg_sec" translatable="true">sec</string>
+    <string name="umeng_socialize_msg_min" translatable="true">min</string>
+    <string name="umeng_socialize_msg_hor" translatable="true">hour</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="true">login</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="true">account</string>
+
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+
+    <string name="umeng_socialize_share_content">www.umeng.com/social</string>
+    <string name="umeng_socialize_login_qq">QQ</string>
+    <string name="umeng_socialize_login">login</string>
+    <string name="umeng_socialize_text_choose_account">select account</string>
+    <string name="umeng_socialize_text_authorize">authorize</string>
+    <string name="umeng_socialize_text_unauthorize">un-authorize</string>
+    <string name="umeng_socialize_text_ucenter">personal center</string>
+    <string name="umeng_socialize_text_login_fail">login fail, please retry</string>
+    <string name="umeng_socialize_text_comment_hint">comment&#8230;</string>
+    <string name="umeng_socialize_text_friend_list">friends list</string>
+    <string name="umeng_socialize_text_visitor">guest</string>
+    <string name="umeng_socialize_text_tencent_no_connection">no connection to Tecent server</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">oauth login fail</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">version not match</string>
+    <string name="umeng_socialize_text_tencent_no_install">Tecent webo not install</string>
+    <string name="umeng_socialize_text_waitting">Please wait...</string>
+    <string name="umeng_socialize_text_waitting_weixin">jump to Weixin，please wait...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">jump to Weixin circle, please wait...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">Jump</string>
+    <string name="umeng_socialize_text_waitting_message">Please wait...</string>
+    <string name="umeng_socialize_text_loading_message">loading, please wait...</string>
+    <!-- 平台名称 -->
+    <string name="umeng_socialize_text_tencent_key">Tecent Webo</string>
+    <string name="umeng_socialize_text_sina_key">Webo</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_weixin_key">Wechat</string>
+    <string name="umeng_socialize_text_weixin_circle_key">Weixin Circle</string>
+    <string name="umeng_socialize_text_add_custom_platform">customize</string>
+    <string name="umeng_example_home_btn_plus">social sharing</string>
+    <string name="umeng_socialize_text_waitting_share">sharing&#8230;</string>
+    <string name="umeng_socialize_content_hint">comment&#8230;</string>
+    <string name="umeng_socialize_cancel_btn_str">cancel</string>
+    <string name="umeng_socialize_send_btn_str">send</string>
+    <string name="umeng_socialize_img_des"></string>
+    <string name="umeng_socialize_share">share</string>
+
+</resources>

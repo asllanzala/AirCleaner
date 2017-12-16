@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp">
+
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+            android:id="@+id/version_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:alpha="90"
+            android:textColor="@color/white_90"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/version_reminder_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/version_title"
+            android:layout_above="@+id/version_layout"
+            android:orientation="vertical">
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/version_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="30dip"
+                android:textColor="@color/white_90"
+                android:textSize="22sp" />
+
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/version_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dip">
+
+            <TextView
+                android:id="@+id/version_update_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:onClick="doClick"
+                android:text="@string/update_now"
+                android:textColor="@color/white_90"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/version_update_later"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/version_update_now"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dip"
+                android:clickable="true"
+                android:onClick="doClick"
+                android:text="@string/remind_later"
+                android:textColor="@color/white_90"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

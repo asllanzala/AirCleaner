@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/select_location"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:background="@color/search_background"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/search_bg"
+            android:hint="@string/search"
+            android:paddingLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gps_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/search_view"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/gps_prompt_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/gps"/>
+
+        <TextView
+            android:id="@+id/gps_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/gps_prompt_view"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/enroll_next_button"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/city_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ok_btn"
+        android:layout_below="@id/gps_view">
+
+        <ListView
+            android:id="@+id/city_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:scrollbars="none"/>
+
+        <com.honeywell.hch.airtouchv2.framework.view.SideBar
+            android:id="@+id/sidebar"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"/>
+    </RelativeLayout>
+
+</RelativeLayout>

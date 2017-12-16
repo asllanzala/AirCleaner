@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/top_fragment_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <include
+        android:id="@+id/city_title_id"
+        layout="@layout/city_title"/>
+
+    <RelativeLayout
+        android:id="@+id/home_cell_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/city_title_id"
+        android:layout_marginTop="26dip">
+
+        <include
+            android:id="@+id/four_btn_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            layout="@layout/imagebtn_title_below"/>
+
+
+        <RelativeLayout
+            android:id="@+id/main_device_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/home_deivce_bottom"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/device_dot_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingEnd="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:paddingBottom="20dip"
+                android:src="@drawable/device_dot_icon"/>
+
+            <ImageView
+                android:id="@+id/device_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/device_dot_icon"
+                android:src="@drawable/airtouchs_device_icon_nospace"/>
+
+        </RelativeLayout>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.AirTouchWorstDevice
+            android:id="@+id/device_worst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginStart="20dip"
+            android:layout_above="@id/main_device_layout"
+            android:visibility="invisible"/>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.weatherchart.WeatherChartView
+            android:id="@+id/weather_chart"
+            android:visibility="gone"
+            android:layout_below="@id/four_btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/india_no_device"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/india_no_gps_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/india_no_log_reminder1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/india_no_log_reminder2"/>
+
+            <Button
+                android:id="@+id/india_enroll_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/emotional_enroll_now_str"
+                android:background="@drawable/india_enroll_now_button"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

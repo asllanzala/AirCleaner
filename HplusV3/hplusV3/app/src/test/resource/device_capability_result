@@ -1,0 +1,10 @@
+{
+  "fanOffAllowed": "ALLOWED",
+  "fanAutoAllowed": "ALLOWED",
+  "fanSleepAllowed": "ALLOWED",
+  "nFanSpeeds": "SPEED_7",
+  "nFilters": "FILTERS_3",
+  "filter1ExpiredTime": 800,
+  "filter2ExpiredTime": 5000,
+  "filter3ExpiredTime": 1400
+}

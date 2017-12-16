@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/no_device_layoutid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true">
+
+    <ImageView
+        android:id="@+id/bottle_image_id"
+        android:layout_width="178dip"
+        android:layout_height="178dip"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nodevice_enroll_tip_id"
+        android:layout_below="@id/bottle_image_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="37dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center"
+        android:text="@string/emotional_nodevice_enroll_str"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nodevice_enroll_tip_id"
+        android:layout_marginTop="40dip"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/begin_enroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/btn_back"
+                android:gravity="center"
+                android:text="@string/emotional_enroll_now_str"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/cancel_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/btn_back"
+                android:gravity="center"
+                android:text="@string/emotional_cancel_str"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

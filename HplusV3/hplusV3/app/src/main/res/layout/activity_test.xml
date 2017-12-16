@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnEnroll"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Enrollment">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnDevice"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:text="Add device"/>
+
+    <Button
+        android:id="@+id/thinkPageBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:text="Group name"/>
+
+    <Button
+        android:id="@+id/key"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_toEndOf="@+id/btnDevice"
+        android:layout_toRightOf="@+id/btnDevice"
+        android:text="DG"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="CG"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="120dp"
+        android:text="Scenario"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:text="Share"/>
+
+    <Button
+        android:id="@+id/btnLocation"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="180dp"
+        android:text="DD"/>
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"/>
+
+   <ImageView
+        android:id="@+id/capture_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"/>
+
+    <ImageView
+        android:id="@+id/capture_iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/capture_iv"/>
+
+    <LinearLayout
+        android:id="@+id/emotion_share_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="-202dp"
+        android:background="@drawable/emotion_share_background_day"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/wechat_share_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/emotion_share_wechat"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/emotion_share_webo"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="wechat"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="webo"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/cancel"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emotion_share_layout_dummy"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="-2dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/wechat_share_btn_dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_share_wechat"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/webo_share_btn_dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_share_webo"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:id="@+id/share_cancel_layout_dummy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

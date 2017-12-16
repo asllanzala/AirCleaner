@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="true"
+              android:background="@drawable/enrollment_bg">
+
+    <ImageView
+        android:id="@+id/enroll_loading_iv"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/enroll_loading"/>
+
+    <TextView
+        android:id="@+id/enroll_loading_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enroll_loading_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/black_50"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

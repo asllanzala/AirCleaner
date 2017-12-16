@@ -1,0 +1,14 @@
+{
+  "commonTaskResultList": [
+    {
+      "deviceID": 28205,
+      "commonTaskID": 0,
+      "message": "Device Offline"
+    },
+    {
+      "deviceID": 28222,
+      "commonTaskID": 12345,
+      "message": "Success"
+    }
+  ]
+}

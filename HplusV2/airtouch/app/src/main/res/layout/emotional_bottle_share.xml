@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/share_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/share_capture_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/share_capture_iv"
+            android:layout_marginTop="20dp"
+            android:text="@string/honeywell"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/airCleaner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/logo"
+            android:text="@string/air_cleaner"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/disclaimer_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/airCleaner"
+            android:layout_marginTop="20dp"
+            android:text="@string/disclaimer_first"
+            android:textColor="@color/white"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/disclaimer_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/disclaimer_first"
+            android:text="@string/disclaimer_second"
+            android:textColor="@color/white"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/share_collected"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/disclaimer_second"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="@string/disclaimer_second"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="10sp"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/disclaimer_first"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@id/disclaimer_second"-->
+        <!--android:text="@string/disclaimer_first"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="10sp"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/logo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@id/disclaimer_first"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:text="@string/honeywell"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="16sp"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/airCleaner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@id/logo"-->
+        <!--android:text="@string/air_cleaner"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="16sp"/>-->
+    </RelativeLayout>
+</LinearLayout>

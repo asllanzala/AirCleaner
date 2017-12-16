@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <com.honeywell.hch.airtouchv3.framework.view.ScrollLayout
+        android:id="@+id/control_filter_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:customScreen="1"
+        app:customScreenHeight="70"
+        app:defaultScreen="0">
+
+        <RelativeLayout
+            android:id="@+id/control_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/filter_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.honeywell.hch.airtouchv3.framework.view.ScrollLayout>
+</RelativeLayout>

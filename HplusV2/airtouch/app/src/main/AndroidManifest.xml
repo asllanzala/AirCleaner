@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.honeywell.hch.airtouchv2"
+    android:versionCode="32"
+    android:versionName="2.0.2">
+
+    <!-- used for network location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- used for access GPS location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- access wifi info used for network location -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name="com.honeywell.hch.airtouchv2.ATApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.dashboard.controller.splash.StartActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.location.MainActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.device.HouseActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.device.DeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.UserLoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.MobileGetSmsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.MobileVerifySmsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.MobileDoneActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.UserEditHomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.authorize.controller.UserAddHomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.setting.user.ForgetPasswordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.LocationAndDeviceRegisterActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EditGPSActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EnrollWelcomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EnrollConnectDeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EnrollConnectWifiActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EnrollWifiPasswordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.enrollment.EnrollLoadingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.manual.ManualActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.TestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.honeywell.hch.airtouchv2.app.airtouch.controller.device.DeviceRunStatusService">
+            <intent-filter>
+                <action android:name="com.honeywell.air.app.service.DeviceRunStatusService" />
+            </intent-filter>
+        </service>
+
+        <!--<receiver android:name=".receiver.MorningAlarmReceiver"/>-->
+        <!--<receiver android:name=".receiver.NightAlarmReceiver"/>-->
+
+        <receiver
+            android:name="com.honeywell.hch.airtouchv2.framework.notification.MorningAlarmReceiver"
+            android:process=":remote" />
+        <receiver
+            android:name="com.honeywell.hch.airtouchv2.framework.notification.NightAlarmReceiver"
+            android:process=":remote" />
+
+        <!-- baidu location -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="lgcqut7YSvoVxcdQQrtgu5rw" />
+        <!-- baidu location end -->
+
+        <!-- umeng statistics -->
+        <!--<meta-data android:name="UMENG_APPKEY" android:value="552e1fabfd98c5d7e80001be"/>-->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="552e1fabfd98c5d7e80001be" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Yingyongbao" />
+
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv2.framework.share.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- umeng statistics end -->
+    </application>
+
+</manifest>

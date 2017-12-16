@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enrollment_bg"
+    android:baselineAligned="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/enroll_title_id"
+        layout="@layout/activity_enroll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/scroll_id"
+        android:layout_width="match_parent"
+        android:layout_height="450dip"
+        android:layout_marginEnd="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_below="@id/enroll_title_id">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dip"
+                android:text="@string/connect_timeout_title1"
+                android:textColor="@color/enroll_page1_title"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/title_content1_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_id"
+                android:layout_marginLeft="15dip"
+                android:layout_marginStart="15dip"
+                android:layout_marginTop="20dip"
+                android:text="@string/connect_timeout_content1"
+                android:textSize="16sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/content_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_content1_id"
+                android:layout_marginLeft="15dip"
+                android:layout_marginStart="15dip"
+                android:layout_marginTop="20dip">
+
+                <TextView
+                    android:id="@+id/content1_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/connect_timeout_content3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/content2_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/content1_id"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/connect_timeout_content4"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/image_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/content2_id"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="15dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/contol_panel" />
+
+                <TextView
+                    android:id="@+id/content3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_id"
+                    android:layout_marginTop="15dip"
+                    android:text="@string/connect_timeout_content5"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/retrybtn_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/enroll_next_button"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/connect_timeout_retry"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_marginStart="1dip"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/contactbtn_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/enroll_next_button"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/connect_timeout_contact"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

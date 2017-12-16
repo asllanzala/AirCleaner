@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.honeywell.hch.airtouchv3"
+    android:versionCode="32"
+    android:versionName="2.0.2" >
+
+    <!-- used for network location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- used for access GPS location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- access wifi info used for network location -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Push service  -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:name="com.honeywell.hch.airtouchv3.HPlusApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.splash.StartActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.MainActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.device.DeviceActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.alldevice.AllDeviceActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.alldevice.control.GroupControlActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.device.ArriveHomeActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.location.OnTravelMinderActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.location.UpdateVersionMinderActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.UserLoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.weather.WeatherActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.dashboard.controller.location.TurnOnAllDeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.MobileGetSmsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.MobileVerifySmsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.MobileDoneActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.UserEditHomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.authorize.controller.UserAddHomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.setting.user.ForgetPasswordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EditGPSActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollChoiceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollWelcomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollConnectDeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollConnectWifiActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollWifiPasswordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.EnrollLoadingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.smartlink.SmartlinkInputPasswordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.smartlink.SmartLinkChooseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.smartlink.SmartlinkRegisterDeviceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.smartlink.SmartlinkConnectTimeoutActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.manual.ManualActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.TestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.honeywell.hch.airtouchv3.app.airtouch.controller.enrollment.smartlink.SmartLinkEnrollScanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.honeywell.hch.airtouchv3.framework.app.TimerRefreshService" >
+            <intent-filter>
+                <action android:name="com.honeywell.air.app.service.DeviceRunStatusService" />
+            </intent-filter>
+        </service>
+
+        <!-- <receiver android:name=".receiver.MorningAlarmReceiver"/> -->
+        <!-- <receiver android:name=".receiver.NightAlarmReceiver"/> -->
+
+        <receiver
+            android:name="com.honeywell.hch.airtouchv3.framework.notification.MorningAlarmReceiver"
+            android:process=":remote" />
+        <receiver
+            android:name="com.honeywell.hch.airtouchv3.framework.notification.NightAlarmReceiver"
+            android:process=":remote" />
+
+        <!-- baidu location -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- Sina share-->
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.framework.share.wbapi.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" >
+        </activity>
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false">
+        </service>
+        <activity
+            android:name="com.honeywell.hch.airtouchv3.framework.notification.baidupushnotification.BaiduPushRemindActivity"
+            android:configChanges="keyboardHidden|orientation|locale|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- baidu pushreceiver declare -->
+        <receiver android:name="com.honeywell.hch.airtouchv3.framework.notification.baidupushnotification.BaiduPushMessageReceiver" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.honeywell.hch.airtouchv3.framework.notification.baidupushnotification.BaiduPushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <!-- push必须的receviver和service声明 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+
+         <!--push test key-->
+        <!--<meta-data-->
+            <!--android:name="com.baidu.push.API_KEY"-->
+            <!--android:value="HFeZQuB0FErsL3rjdZz1dey9" />-->
+
+        <!-- push product key -->
+        <meta-data
+            android:name="com.baidu.push.API_KEY"
+            android:value="lgcqut7YSvoVxcdQQrtgu5rw" />
+         <!--push结束 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="lgcqut7YSvoVxcdQQrtgu5rw" />
+         <!--baidu location end -->
+        <!--test key-->
+        <!--<meta-data-->
+            <!--android:name="com.baidu.lbsapi.API_KEY"-->
+            <!--android:value="HFeZQuB0FErsL3rjdZz1dey9" />-->
+
+        <!-- Umeng statistics -->
+        <!--&lt;!&ndash; Umeng product key &ndash;&gt;-->
+        <meta-data
+        android:name="UMENG_APPKEY"
+        android:value="552e1fabfd98c5d7e80001be" />
+
+         <!--&lt;!&ndash;Umeng test key &ndash;&gt;-->
+        <!--<meta-data-->
+            <!--android:name="UMENG_APPKEY"-->
+            <!--android:value="56388cd9e0f55af804000644" />-->
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" />
+
+    </application>
+
+</manifest>

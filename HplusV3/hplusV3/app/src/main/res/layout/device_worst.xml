@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+
+    <LinearLayout
+        android:id="@+id/horizontal_pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/fan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_pm25"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+            android:id="@+id/pm25_value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:paddingTop="10dp"
+            android:textSize="60sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pm_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/fan"/>
+
+        <TextView
+            android:id="@+id/pm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_pm25"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+            android:id="@+id/pm25_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/main_device_pmvalue"
+            android:singleLine="true"
+            android:paddingTop="10dp"
+            android:textSize="60sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tvoc_layout"
+        android:layout_toRightOf="@id/pm_layout"
+        android:layout_marginLeft="37dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp">
+        <TextView
+            android:id="@+id/tvoc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TVOC"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+            android:id="@+id/tvoc_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/main_device_pmvalue"
+            android:text="3.33"
+            android:singleLine="true"
+            android:paddingTop="10dp"
+            android:textSize="60sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/underline_layout"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/device_status_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/fan"/>
+
+        <TextView
+            android:id="@+id/device_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/device_status_image"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/device_status_text"
+            android:layout_alignLeft="@id/device_status_text"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/clean_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/device_name"
+            android:layout_alignLeft="@id/device_status_text"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+
+    <com.honeywell.hch.airtouchv3.app.airtouch.view.WorstDeviceLine
+        android:id="@+id/worst_line_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/edit_home_list"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/default_home_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="@null"
+        android:focusable="false"
+        android:src="@drawable/menu_default_home"/>
+
+    <LinearLayout
+        android:id="@+id/selected_home_nv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/home_name_et"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLength="14"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:selectAllOnFocus="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/home_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/home_city_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/edit_city_text"
+            android:focusable="false"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selected_home_three_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/select_default_home_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@null"
+            android:focusable="false"
+            android:src="@drawable/menu_default_home"/>
+
+        <ImageView
+            android:id="@+id/select_remove_home_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@null"
+            android:focusable="false"
+            android:src="@drawable/menu_delete_home"/>
+
+        <ImageView
+            android:id="@+id/select_rename_home_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@null"
+            android:focusable="false"
+            android:src="@drawable/menu_edit_place"/>
+
+    </LinearLayout>
+
+</LinearLayout>

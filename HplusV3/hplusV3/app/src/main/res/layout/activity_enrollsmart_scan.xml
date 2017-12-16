@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mo_scanner_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mo_scanner_deny_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/mo_scanner_preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <com.honeywell.hch.airtouchv3.lib.Zxing.view.ViewfinderView
+            android:id="@+id/mo_scanner_viewfinder_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.honeywell.hch.airtouchv3.lib.Zxing.view.ViewWhiteBackGround
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/enroll_title_id"
+            layout="@layout/activity_smart_enroll_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/mo_scanner_nodeny_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/enroll_back_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:onClick="doClick"
+            android:paddingBottom="10dip"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/login_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_icon" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+
+            <TextView
+                android:id="@+id/input_nodeny_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dip"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dip"
+                android:layout_marginStart="30dp"
+                android:gravity="center"
+                android:text="@string/smart_permission_deny_title"
+                android:textColor="@color/particle_orientation_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_nodeny_title"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/smart_permission_deny_messege"
+                android:textColor="@color/particle_orientation_color"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

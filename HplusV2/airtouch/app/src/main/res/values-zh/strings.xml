@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">Air Touch S</string>
+    <string name="cancel">取消</string>
+    <string name="notice">提示</string>
+    <string name="version">Air Touch S</string>
+
+    <!--common-->
+    <string name="ok">确认</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="retry">重试</string>
+    <string name="no_data">没有数据</string>
+    <string name="no_network">您当前网络异常或尚未连接到互联网，请打开系统设置确保您的手机连接到可用的Wi-Fi网络</string>
+
+    <!-- enroll wifi security -->
+    <string name="wapi_router_security_open">Open</string>
+    <string name="wapi_router_security_wep">WEP</string>
+    <string name="wapi_router_security_wpa_aes">WPA AES</string>
+    <string name="wapi_router_security_wpa_tkip">WPA TKIP</string>
+    <string name="wapi_router_security_wpa2_aes">WPA2 AES</string>
+    <string name="wapi_router_security_wpa2_tkip">WPA2 TKIP</string>
+    <string name="wapi_router_security_wpa2_mixed">WPA2 Mixed</string>
+
+    <!-- enrollment -->
+    <string name="enroll_skip">取消</string>
+    <string name="enroll_one">1</string>
+    <string name="enroll_two">2</string>
+    <string name="enroll_three">3</string>
+    <string name="enroll_four">4</string>
+    <string name="enroll_title1">查找您的设备</string>
+    <string name="enroll_title2">与您的设备连接</string>
+    <string name="enroll_title3">将您的设备连接到\n家庭Wi-Fi</string>
+    <string name="enroll_title4">给您的设备取名</string>
+    <string name="enroll_scanning">正在扫描</string>
+    <string name="enroll_found">已发现您的设备</string>
+    <string name="enroll_not_found">没有发现Air Touch</string>
+    <string name="enroll_connecting">正在连接</string>
+    <string name="enroll_home_wifi">家庭网络WIFI</string>
+    <string name="enroll_open_wifi">请打开系统设置确保您的手机已打开Wi-Fi功能</string>
+    <string name="enroll_networks">可用网络</string>
+    <string name="enroll_back">返回</string>
+    <string name="enroll_next">下一步</string>
+    <string name="enroll_rescan">重新扫描</string>
+    <string name="enroll_password">密码</string>
+    <string name="enroll_hint_ssid">输入网络名称</string>
+    <string name="enroll_hint_password">输入密码</string>
+    <string name="enroll_ssid_security">安全性</string>
+    <string name="enroll_ssid">SSID</string>
+    <string name="enroll_other_network">其他网络</string>
+    <string name="enroll_done">完成</string>
+    <string name="enroll_other">其他&#8230;</string>
+    <string name="enroll_error">操作失败</string>
+    <string name="enroll_success">连接成功</string>
+    <string name="email_format_wrong">邮箱格式错误</string>
+    <string name="enroll_quit">要退出添加设备吗？</string>
+    <string name="enroll_wait">正在为您添加设备，可能需要一两分钟, 请稍候。</string>
+    <string name="quit">要退出吗？</string>
+    <string name="enroll_indicate">长按“AP”按钮5秒来启动\n设备的Wi-Fi连接</string>
+    <string name="not_login">"您还没有登录, 现在登录?</string>
+    <string name="error_code_10">您上次输入的Wi-Fi密码不正确，请确保本次输入正确的家庭Wi-Fi密码</string>
+    <string name="error_code_20">您上次输入的家庭Wi-Fi网络无法找到，请使用一个有效的家庭Wi-Fi网络</string>
+    <string name="error_code_30">您上次输入的家庭Wi-Fi网络无法找到，请使用一个有效的家庭Wi-Fi网络</string>
+    <string name="enroll_long_press">长按</string>
+    <string name="enroll_page1_title_line1">空气净化器上的</string>
+    <string name="enroll_page1_title_line2">WiFi按钮,直到听见提示音</string>
+    <string name="enroll_page3_title_line1">把空气净化器</string>
+    <string name="enroll_page3_title_line2">连到家的WiFi</string>
+    <string name="enroll_page2_title_line1">找到一台</string>
+    <string name="enroll_page2_title_line2">Air Touch-S</string>
+    <string name="enroll_page2_title_line3">给它取个小名</string>
+    <string name="enroll_page2_title_line4">家的位置</string>
+    <string name="enroll_page2_title_line5">家的名字</string>
+    <string name="enroll_password_title1">请输入</string>
+    <string name="enroll_password_title2">的密码</string>
+    <string name="enroll_name_done">取好名字了</string>
+
+
+    <!-- user register, login -->
+    <string name="login_email">邮箱</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_remember_password">记住密码</string>
+    <string name="login_new_user">注册用户</string>
+    <string name="login">登录</string>
+    <string name="log_in">登录</string>
+    <string name="log_out">注销</string>
+    <string name="log_in_reg">登录/注册</string>
+    <string name="register">注册</string>
+    <string name="registering">注册</string>
+    <string name="register_email">邮箱 (用户账号)</string>
+    <string name="register_accept_terms">我已经阅读和同意霍尼韦尔用户条款</string>
+    <string name="register_nick_name">昵称</string>
+    <string name="register_confirm_password">确认密码</string>
+    <string name="register_password_guide">6到30个数字或者字母，至少包括一个大写字母和一个小写字母</string>
+    <string name="password_format_wrong">输入密码不满足密码强度要求，请重新输入</string>
+    <string name="password_not_match">两次密码不匹配</string>
+    <string name="password_invalid">登录失败，手机号或者密码不正确</string>
+    <string name="password_length_wrong">密码长度过短，至少需要六个字符</string>
+    <string name="nickname_format_wrong">昵称不能包含特殊字符</string>
+
+    <!-- edit home  -->
+    <string name="my_places">我的家</string>
+    <string name="set_as_default">设置为默认家</string>
+    <string name="remove_this_home">删除</string>
+    <string name="rename_this_home">重命名这个家</string>
+    <string name="renaming">重命名中</string>
+    <string name="remove_home_fail">由于家中有设备，无法删除家，请先删除设备再进行</string>
+    <string name="add_place">添加新家</string>
+    <string name="add_to_home">添加此家</string>
+    <string name="search_place">搜索家所在城市</string>
+    <string name="name_place">给家取个名字</string>
+    <string name="home_name_empty">请正确输入家名</string>
+
+    <!-- add device  -->
+    <string name="enroll_gps">定位</string>
+    <string name="enroll_gps_on">定位中</string>
+    <string name="enroll_gps_fail">未定位</string>
+    <string name="enroll_home">给设备所在家取名</string>
+    <string name="enroll_device">给设备取名</string>
+    <string name="my_home">我的家01</string>
+    <string name="my_device">我的设备01</string>
+    <string name="enroll_select">请选择</string>
+    <string name="enroll_loading">正在加载</string>
+    <string name="adding_home">正在添加家</string>
+    <string name="deleting_home">正在删除家</string>
+    <string name="adding_device">正在添加设备</string>
+    <string name="checking_device">正在检查设备是否在线</string>
+    <string name="add_device">添加设备</string>
+    <string name="add_device_fail">添加设备失败</string>
+    <string name="delete_device_fail">删除设备失败</string>
+    <string name="device_not_alive">设备未能连上互联网，本次操作将不会成功，请尝试退出并重新添加设备，您将会看到上次操作失败的原因</string>
+    <string name="device_not_control">远程控制功能已关闭</string>
+    <string name="select_location">选择定位城市</string>
+    <string name="search">正在搜索&#8230;</string>
+    <string name="gps">位置:</string>
+    <string name="reconnect">重新连接</string>
+    <string name="select_city">请先选择定位城市</string>
+    <string name="max_home">家的数量已达上限，请选择已有家添加设备</string>
+    <string name="max_home2">家的数量已达上限，无法添加更多家</string>
+    <string name="same_home">该名字已被使用，请用别的名字命名家</string>
+    <string name="max_device">设备的数量已达上限</string>
+    <string name="device_already_registered">该设备已被您注册过，想继续修改Wifi设置吗?</string>
+    <string name="device_already_registered_by_another">操作失败，设备已被另一个账号注册</string>
+    <string name="device_registered">设备已经被注册</string>
+    <string name="network_retry">您当前尚未连接到互联网，请进入系统设置页面，手动选择可用网络</string>
+
+    <!-- control device  -->
+    <string name="control_auto">自动</string>
+    <string name="control_quick">快速</string>
+    <string name="control_sleep">睡眠</string>
+    <string name="control_silent">静音</string>
+    <string name="device_offline">设备已离线</string>
+    <string name="device_control">正在连接设备，请稍等</string>
+    <string name="input_quick">您的按键过快</string>
+    <string name="control_timeout">操作超时，请重试</string>
+    <string name="wait_for_connection">等待连接</string>
+    <string name="arriving_home">已设置到家时间于</string>
+    <string name="clean_time_hour">将于%1$d小时后完成净化</string>
+    <string name="clean_time_minute">将于%1$d分钟后完成净化</string>
+
+    <!-- device status -->
+    <string name="device_auto">自动</string>
+    <string name="device_quick">急速</string>
+    <string name="device_sleep">睡眠</string>
+    <string name="device_silent">静音</string>
+    <string name="device_pm25">PM2.5</string>
+
+    <!--filter-->
+    <string name="firmware_version">固件版本号：</string>
+    <string name="filter_status">滤网余量</string>
+    <string name="buy_it">购买</string>
+    <string name="pre_filter">前置滤网</string>
+    <string name="pm25_filter">高效颗粒物滤网</string>
+    <string name="hisiv_filter">HiSiv滤网</string>
+    <string name="filter_instruction">滤网介绍</string>
+    <string name="no_need_to_buy">无需购买</string>
+    <string name="pre_filter_instruction">用以滤除毛发以及较大的颗粒物，有效延长其他滤网使用寿命</string>
+    <string name="pm25_filter_instruction">大容量，低阻力，有效去除PM2.5和PM0.3颗粒物</string>
+    <string name="hisiv_filter_instruction">可在高湿度情况下维持高效率，去除多种有害气体（甲醛等）</string>
+    <string name="pre_filter_suggestion">前置滤网仅在被损毁情况下才需要更换。平时您只需按照产品手册上的指示定期清洗即可</string>
+
+    <!--menu-->
+    <string name="places_care">我的家</string>
+    <string name="edit_places">编辑</string>
+    <string name="user_guide">用户手册</string>
+    <string name="change_password">更改密码</string>
+    <string name="login_ongoing">正在登录，请稍等</string>
+    <string name="eula">用户守则</string>
+
+    <!-- gps page -->
+    <string name="tell_air_touch">设置</string>
+    <string name="tell_success">设置到家时间成功</string>
+    <string name="cancel_success">取消设置成功</string>
+    <string name="cancel_fail">取消设置失败</string>
+    <string name="tell_fail">设置到家时间失败</string>
+    <string name="user_not_login">您还没有登录</string>
+    <string name="load_weather_data">正在加载天气数据，请稍等</string>
+    <string name="weather_data_fail">获取天气数据失败</string>
+    <string name="suggest_no_mask">不需要戴口罩哦！</string>
+    <string name="suggest_mask">要戴口罩了！</string>
+    <string name="suggest_outdoor">可以来点户外运动！</string>
+    <string name="suggest_outdoor_bad">今天不适合户外运动！</string>
+    <string name="suggest_elderly">老人小孩适合外出！</string>
+    <string name="suggest_elderly_bad">建议孩子和老人呆在家里！</string>
+    <string name="suggest_indoor">要戴口罩了!</string>
+    <string name="set_arrive_home">我到家\'%1$s\'的时间</string>
+
+    <!-- home page -->
+    <string name="current_location">当前位置</string>
+    <string name="temp_unit_c">°C</string>
+    <string name="open_device">请开空气净化器</string>
+
+    <!--mobile-->
+    <string name="mobile_phone_number">手机号码</string>
+    <string name="get_sms_code">获取验证码</string>
+    <string name="verification_code">验证码</string>
+    <string name="sms_arrive">您应在60秒内收到验证码短信</string>
+    <string name="phone_format_wrong">手机号格式错误</string>
+    <string name="sms_code_wrong">校验码不正确</string>
+    <string name="sms_resend">重发</string>
+    <string name="sms_submit">提交</string>
+    <string name="sms_done">完成</string>
+    <string name="reset_password">重设密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="sms_send_fail">短信发送失败</string>
+    <string name="mobile_message">为了便利和保证安全，我们使用手机号注册账号，这样利于便捷地验证身份、绑定设备、找回密码以及提供售后服务。</string>
+
+    <!--house-->
+    <string name="offline">离线</string>
+    <string name="off">关机</string>
+    <string name="speed_low">低速</string>
+    <string name="speed_medium">中速</string>
+    <string name="speed_high">高速</string>
+    <string name="delete_device">确定要删除该设备吗？\n该操作可能需要几分钟完成，请耐心等待。</string>
+    <string name="deleting_device">正在删除设备</string>
+
+    <!--tutorial-->
+    <string name="tutorial_home1">点击工作模式标识，\n控制净化器</string>
+    <string name="tutorial_home2">点击房子图标，\n了解更多家中信息</string>
+    <string name="tutorial_filter">点击查看滤网介绍</string>
+    <string name="tutorial_control">向上滑动，查看滤网详细信息</string>
+    <string name="tutorial_house1">点击房子以外的区域，\n返回主界面</string>
+    <string name="tutorial_house2">长按设备图标，\n可删除设备</string>
+
+    <!--emotion pager-->
+    <string name="wechat">微信</string>
+    <string name="webo">微博</string>
+    <string name="in_door_str">室内</string>
+    <string name="out_door_str">室外</string>
+    <string name="indoor_bubble_title">解析 %1$d</string>
+    <string name="tell_someone_care">告诉你关心的人</string>
+    <string name="pm25_str">PM2.5</string>
+    <string name="honeywell">Honeywell</string>
+    <string name="air_cleaner">智能空气净化器</string>
+    <string name="yesterday_str">昨天</string>
+    <string name="this_week_str">本周</string>
+    <string name="this_month_str">本月</string>
+    <string name="so_far_str">目前为止</string>
+    <string name="airtouch_collected_tip">Air Touch 收集了</string>
+    <string name="disclaimer_first">PAHs及铅的含量仅反映全国平均水平，</string>
+    <string name="disclaimer_second">实际含量视您所在区域的污染状况不同会有所偏差。</string>
+    <string name="collection_str_tip"> <Data><![CDATA[ <font size="16" color="#ffffff">Air Touch 收集了 </font> <b><font color="#ffff00"> <big> %1$d </big></font></b> <b><font size="16" color="#ffff00">毫克</font></b>  <font size="16" color="#ffffff">PM2.5</font> ]]></Data></string>
+
+    <string name="bubble_title_str"> <Data><![CDATA[ <b><font color="#ffff00"> <big> %1$s </big></font></b> <b><font size="16" color="#ffff00">毫克</font></b>  <font size="16" color="#ffffff">PM2.5中包含...</font> ]]></Data></string>
+
+    <string name="bubble_path_contain"> <Data><![CDATA[ <b><font color="#ffff00"> <big> %1$s </big></font></b> <font size="16" color="#ffffff">毫克</font> ]]></Data></string>
+
+    <string name="bubble_path_cigarettes"><Data><![CDATA[<font size="16" color="#ffffff">约等于</font>  <b><font color="#ffff00"> <big> %1$s </big></font></b> <font size="16" color="#ffffff">支烟的致癌物质</font>]]></Data></string>
+    <string name="bubble_car_lead"> <Data><![CDATA[<font size="16" color="#ffffff">约等于1.8L轿车怠速</font>  <b><font color="#ffff00"> <big> %1$s </big></font></b> <font size="16" color="#ffffff">秒排放的尾气含铅量</font>]]></Data></string>
+    <string name="paths_name">多环芳烃</string>
+    <string name="paths_orientation">多环芳烃(Polycyclic Aromatic Hydrocarbons PAHs), 强致癌物质，是煤，石油，木材，烟草，有机高分子化合物等有机物不完全燃烧时产生的挥发性碳氢化合物，是重要的环境和食品污染物。</string>
+
+    <string name="lead_name">铅</string>
+    <string name="lead_orientation">强重金属污染物，不易代谢和降解，故对人体的毒害是积累性的，长期接触铅及其化合物会导致心悸，易激动，失眠、多梦、记忆减退、疲乏，引发泌尿系统癌症。儿童对于铅的不良影响特别敏感，即使低水平暴露也会对中枢神经系统及发育方面产生危害。</string>
+
+    <string name="emotion_no_device_tip">家里没有空气净化器，无净化效果展示</string>
+
+    <string name="emotion_no_network">您当前没有网络访问，请检查网络设置</string>
+</resources>

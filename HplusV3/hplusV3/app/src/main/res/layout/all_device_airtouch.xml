@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+    <ImageView
+        android:id="@+id/air_touch_device_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/device_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/air_touch_device_view"
+        android:layout_alignLeft="@id/air_touch_device_view"
+        android:layout_alignStart="@id/air_touch_device_view"
+        android:layout_alignRight="@id/air_touch_device_view"
+        android:layout_alignEnd="@id/air_touch_device_view"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/white_60"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/device_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_name_tv"
+        android:layout_alignRight="@id/air_touch_device_view"
+        android:layout_alignEnd="@id/air_touch_device_view"
+        android:layout_alignLeft="@id/device_name_tv"
+        android:layout_alignStart="@id/device_name_tv"
+        android:textColor="@color/white_60"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/bottom_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_status_tv"
+        android:layout_marginTop="20dp"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/fan_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/device_status_tv"
+        android:layout_toStartOf="@id/device_status_tv"
+        android:layout_alignBottom="@id/device_status_tv"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/fan"/>
+
+    <LinearLayout
+        android:id="@+id/device_value_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@id/air_touch_device_view"
+        android:layout_alignLeft="@id/air_touch_device_view"
+        android:layout_alignStart="@id/air_touch_device_view"
+        android:layout_alignRight="@id/air_touch_device_view"
+        android:layout_alignEnd="@id/air_touch_device_view">
+
+        <TextView
+            android:id="@+id/pm25_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_pm25"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="8sp"/>
+
+        <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+            android:id="@+id/pm25_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:id="@+id/airP_device_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvoc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TVOC"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="8sp"/>
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/tvoc_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

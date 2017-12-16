@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ScrollView
+        android:id="@+id/whole_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:text="@string/all_device"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/all_device_header_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_tv"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/group_control_line_header"
+                android:visibility="invisible"/>
+
+            <FrameLayout
+                android:id="@+id/back_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/all_device_back"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/all_group_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_tv"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/group_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/un_group_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.view.AllDeviceArrow
+        android:id="@+id/arrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

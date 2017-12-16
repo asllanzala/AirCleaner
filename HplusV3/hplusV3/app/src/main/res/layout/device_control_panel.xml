@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/checkbox_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/cb1"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb2"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb3"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb4"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb5"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb6"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb7"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb8"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb9"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb10"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb11"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb12"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb13"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb14"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb15"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb16"
+            style="@style/LedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb17"
+            style="@style/LedMinCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+
+        <CheckBox
+            android:id="@+id/cb18"
+            style="@style/LedMaxCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:clickable="false"
+            android:textSize="2sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

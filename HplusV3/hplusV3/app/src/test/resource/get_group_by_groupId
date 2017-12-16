@@ -1,0 +1,29 @@
+ {
+
+  "group": {
+  "groupId": 5,
+  "locationId": 8451,
+  "groupName": "Test2",
+  "devices": [
+  {
+   "deviceId": 28205,
+   "deviceName": "DeviceName",
+   "deviceType": 1048592,
+   "isAlive": false,
+        "macID": "144146000041",
+        "isUpgrading": false,
+        "isMasterDevice": 1
+   },
+   {
+    "deviceId": 28222,
+    "deviceName": "DeviceName",
+    "deviceType": 1048577,
+    "isAlive": false,
+    "macID": "144146000036",
+    "isUpgrading": false,
+    "isMasterDevice": 0
+   }
+    ]
+  }
+
+}

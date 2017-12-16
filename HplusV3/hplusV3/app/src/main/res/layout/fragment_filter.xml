@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/pre_filter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/pre_filter_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pre_filter_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/enroll_one"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+
+                <LinearLayout
+                    android:id="@+id/pre_filter_text_bar_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/pre_filter_text_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/pre_filter_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/pre_filter"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/pre_filter_percent_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/pre_filter_bar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ProgressBar
+                            android:id="@+id/pre_filter"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="12dp"
+                            android:indeterminate="false"
+                            android:max="100"
+                            android:background="@drawable/filter_bar_background"
+                            android:progressDrawable="@drawable/pre_filter_bar">
+
+                        </ProgressBar>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/pre_filter_purchase_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/pre_filter_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/filter_cart" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pre_filter_desc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/pre_des_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pre_filter"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pre_filter_des_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/pre_filter_instruction"
+                    android:textColor="@color/white_70"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pm25_filter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/pm25_filter_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pm25_filter_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/enroll_two"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+
+                <LinearLayout
+                    android:id="@+id/pm25_filter_text_bar_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/pm25_filter_text_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/pm25_filter_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/pm25_filter"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/pm25_filter_percent_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/pm25_filter_bar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ProgressBar
+                            android:id="@+id/pm25_filter"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="12dp"
+                            android:indeterminate="false"
+                            android:background="@drawable/filter_bar_background"
+                            android:max="100"
+                            android:progressDrawable="@drawable/pm25_filter_bar">
+
+                        </ProgressBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/pm25_filter_purchase_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/pm25_filter_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/filter_cart" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pm25_filter_desc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/pm25_des_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pm25_filter"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/pm25_filter_instruction"
+                    android:textColor="@color/white_70"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hisiv_filter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hisiv_filter_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hisiv_filter_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/enroll_three"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+
+                <LinearLayout
+                    android:id="@+id/hisiv_filter_text_bar_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/hisiv_filter_text_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/hisiv_filter_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/hisiv_filter"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/hisiv_filter_percent_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hisiv_filter_bar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ProgressBar
+                            android:id="@+id/hisiv_filter"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="12dp"
+                            android:indeterminate="false"
+                            android:max="100"
+                            android:background="@drawable/filter_bar_background"
+                            android:progressDrawable="@drawable/hisiv_filter_bar">
+
+                        </ProgressBar>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/hisiv_filter_purchase_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/hisiv_filter_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/filter_cart" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hisiv_filter_desc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/hisiv_des_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hisiv_filter"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/hisiv_filter_instruction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/hisiv_filter_instruction"
+                    android:textColor="@color/white_70"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/firmware"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/firmware"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tutorial_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tutorial_mask"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/tutorial_icon" />
+
+            <TextView
+                android:id="@+id/tutorial_filter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/tutorial_filter"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_authorize_filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dip">
+        <ImageView
+            android:id="@+id/warrnng_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/filter_alert"/>
+        <TextView
+            android:layout_toRightOf="@id/warrnng_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:textColor="@color/filter_no_authorize"
+            android:layout_marginLeft="3dip"
+            android:text="@string/filter_no_authorize"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/weather_main_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:baselineAligned="true">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <include
+        android:id="@+id/city_title_layout"
+        layout="@layout/city_title"/>
+
+    <com.honeywell.hch.airtouchv3.app.airtouch.view.weatherchart.WeatherChartView
+        android:id="@+id/weather_chart"
+        android:layout_below="@id/city_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:padding="10dp"
+        android:src="@drawable/control_close"/>
+
+</RelativeLayout>

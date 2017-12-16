@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="true"
+                android:background="@drawable/enrollment_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/page1_title_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/page1_title_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enroll_page0_title_line1_1"
+            android:textColor="@color/enroll_blue2"
+            android:textSize="45sp"/>
+
+        <TextView
+            android:id="@+id/page1_title_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/page1_title_tv1"
+            android:layout_toEndOf="@id/page1_title_tv1"
+            android:layout_alignBottom="@id/page1_title_tv1"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/enroll_page0_title_line1_2"
+            android:textColor="@color/enroll_page1_title"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/page1_title_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/page1_title_tv1"
+            android:layout_alignLeft="@id/page1_title_tv1"
+            android:layout_alignStart="@id/page1_title_tv1"
+            android:text="@string/enroll_page0_title_line2"
+            android:textColor="@color/enroll_page1_title"
+            android:textSize="24sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/devices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/page1_title_layout1"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/air_premium_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/air_premium_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/air_touch_x_normal"/>
+
+            <TextView
+                android:id="@+id/air_premium_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Touch X"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:alpha="0.5"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/enroll_page1_title"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/air_touch_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/air_premium_layout"
+            android:layout_toEndOf="@id/air_premium_layout"
+            android:layout_alignBottom="@id/air_premium_layout"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/air_touch_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/air_touch_s_normal"/>
+
+            <TextView
+                android:id="@+id/air_touch_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Touch S"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:alpha="0.5"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/enroll_page1_title"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/enroll_next_button"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/enroll_selected"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

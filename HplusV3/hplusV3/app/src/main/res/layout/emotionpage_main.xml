@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emotional_main_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:baselineAligned="true"
+    android:orientation="vertical">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include layout="@layout/emotionpage_has_device" />
+
+    <include layout="@layout/emotional_no_device" />
+
+
+    <RelativeLayout
+        android:id="@+id/cancel_btn"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dip"
+        android:layout_height="40dip">
+        <ImageView
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/control_close"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,677 @@
+{
+    "status": "OK",
+    "history": [
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "22",
+            "feels_like": "24",
+            "wind_direction": "NE",
+            "wind_speed": "15.64",
+            "wind_scale": "3",
+            "humidity": "53",
+            "visibility": "3.0",
+            "pressure": "1019.0",
+            "pressure_rising": "falling",
+            "time_stamp": "2015-10-18T16:46:57+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "327",
+                    "pm25": "276",
+                    "pm10": "353",
+                    "so2": "31",
+                    "no2": "58",
+                    "co": "2.276",
+                    "o3": "132",
+                    "last_update": "2015-10-18T08:00:00+00:00",
+                    "quality": "Hazardous"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "24",
+            "feels_like": "24",
+            "wind_direction": "E",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "48",
+            "visibility": "3.0",
+            "pressure": "1019.0",
+            "pressure_rising": "falling",
+            "time_stamp": "2015-10-18T15:47:14+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "209",
+                    "pm25": "158",
+                    "pm10": "211",
+                    "so2": "26",
+                    "no2": "42",
+                    "co": "1.61",
+                    "o3": "167",
+                    "last_update": "2015-10-18T07:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "25",
+            "feels_like": "24",
+            "wind_direction": "E",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "44",
+            "visibility": "4.0",
+            "pressure": "1020.0",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T14:47:08+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "186",
+                    "pm25": "140",
+                    "pm10": "206",
+                    "so2": "29",
+                    "no2": "47",
+                    "co": "1.496",
+                    "o3": "155",
+                    "last_update": "2015-10-18T06:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "25",
+            "feels_like": "24",
+            "wind_direction": "E",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "44",
+            "visibility": "4.0",
+            "pressure": "1020.0",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T13:46:52+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "204",
+                    "pm25": "153",
+                    "pm10": "229",
+                    "so2": "33",
+                    "no2": "62",
+                    "co": "1.573",
+                    "o3": "125",
+                    "last_update": "2015-10-18T05:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "24",
+            "feels_like": "23",
+            "wind_direction": "E",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "45",
+            "visibility": "5.0",
+            "pressure": "1020.0",
+            "pressure_rising": "falling",
+            "time_stamp": "2015-10-18T12:46:58+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "229",
+                    "pm25": "178",
+                    "pm10": "248",
+                    "so2": "34",
+                    "no2": "72",
+                    "co": "1.7",
+                    "o3": "92",
+                    "last_update": "2015-10-18T04:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "23",
+            "feels_like": "23",
+            "wind_direction": "E",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "49",
+            "visibility": "6.0",
+            "pressure": "1021.0",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T11:46:57+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "259",
+                    "pm25": "208",
+                    "pm10": "274",
+                    "so2": "30",
+                    "no2": "76",
+                    "co": "1.791",
+                    "o3": "63",
+                    "last_update": "2015-10-18T03:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "22",
+            "feels_like": "22",
+            "wind_direction": "E",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "52",
+            "visibility": "5.0",
+            "pressure": "1021.0",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T10:46:55+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "261",
+                    "pm25": "210",
+                    "pm10": "294",
+                    "so2": "28",
+                    "no2": "91",
+                    "co": "1.868",
+                    "o3": "32",
+                    "last_update": "2015-10-18T02:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "21",
+            "feels_like": "20",
+            "wind_direction": "E",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "54",
+            "visibility": "2.5",
+            "pressure": "1021.0",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-18T09:46:53+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "245",
+                    "pm25": "194",
+                    "pm10": "291",
+                    "so2": "39",
+                    "no2": "112",
+                    "co": "2.064",
+                    "o3": "18",
+                    "last_update": "2015-10-18T01:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "20",
+            "feels_like": "18",
+            "wind_direction": "E",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "57",
+            "visibility": "2.0",
+            "pressure": "1020.0",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T08:46:48+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "233",
+                    "pm25": "182",
+                    "pm10": "279",
+                    "so2": "44",
+                    "no2": "106",
+                    "co": "2.05",
+                    "o3": "13",
+                    "last_update": "2015-10-18T00:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "18",
+            "feels_like": "14",
+            "wind_direction": "SE",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "60",
+            "visibility": "1.7",
+            "pressure": "1020.0",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-18T07:46:43+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "227",
+                    "pm25": "176",
+                    "pm10": "299",
+                    "so2": "47",
+                    "no2": "109",
+                    "co": "2.094",
+                    "o3": "10",
+                    "last_update": "2015-10-17T23:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "16",
+            "feels_like": "14",
+            "wind_direction": "SW",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "69",
+            "visibility": "2.0",
+            "pressure": "1019.0",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-18T06:46:43+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "222",
+                    "pm25": "171",
+                    "pm10": "291",
+                    "so2": "51",
+                    "no2": "112",
+                    "co": "2.055",
+                    "o3": "14",
+                    "last_update": "2015-10-17T22:00:00+00:00",
+                    "quality": "Very unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "16",
+            "feels_like": "14",
+            "wind_direction": "N",
+            "wind_speed": "0",
+            "wind_scale": "0",
+            "humidity": "75",
+            "visibility": "1.5",
+            "pressure": "1017.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T05:46:40+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "198",
+                    "pm25": "148",
+                    "pm10": "281",
+                    "so2": "34",
+                    "no2": "134",
+                    "co": "1.906",
+                    "o3": "8",
+                    "last_update": "2015-10-17T20:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "18",
+            "feels_like": "15",
+            "wind_direction": "E",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "65",
+            "visibility": "2.0",
+            "pressure": "1017.9",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-18T04:46:43+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "198",
+                    "pm25": "148",
+                    "pm10": "281",
+                    "so2": "34",
+                    "no2": "134",
+                    "co": "1.906",
+                    "o3": "8",
+                    "last_update": "2015-10-17T20:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "16",
+            "feels_like": "17",
+            "wind_direction": "E",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "86",
+            "visibility": "2.0",
+            "pressure": "1016.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T03:46:42+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "196",
+                    "pm25": "147",
+                    "pm10": "292",
+                    "so2": "35",
+                    "no2": "136",
+                    "co": "1.88",
+                    "o3": "8",
+                    "last_update": "2015-10-17T19:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "16",
+            "feels_like": "16",
+            "wind_direction": "N",
+            "wind_speed": "0",
+            "wind_scale": "0",
+            "humidity": "84",
+            "visibility": "3.0",
+            "pressure": "1016.9",
+            "pressure_rising": "falling",
+            "time_stamp": "2015-10-18T02:46:42+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "191",
+                    "pm25": "143",
+                    "pm10": "298",
+                    "so2": "32",
+                    "no2": "136",
+                    "co": "1.814",
+                    "o3": "12",
+                    "last_update": "2015-10-17T18:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "16",
+            "feels_like": "17",
+            "wind_direction": "S",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "82",
+            "visibility": "3.0",
+            "pressure": "1017.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T01:46:47+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "192",
+                    "pm25": "144",
+                    "pm10": "270",
+                    "so2": "34",
+                    "no2": "126",
+                    "co": "1.745",
+                    "o3": "27",
+                    "last_update": "2015-10-17T17:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Cloudy",
+            "code": "4",
+            "temperature": "17",
+            "feels_like": "17",
+            "wind_direction": "N",
+            "wind_speed": "0",
+            "wind_scale": "0",
+            "humidity": "76",
+            "visibility": "4.0",
+            "pressure": "1017.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-18T00:46:55+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "184",
+                    "pm25": "138",
+                    "pm10": "247",
+                    "so2": "35",
+                    "no2": "119",
+                    "co": "1.77",
+                    "o3": "37",
+                    "last_update": "2015-10-17T16:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Clear",
+            "code": "1",
+            "temperature": "18",
+            "feels_like": "20",
+            "wind_direction": "N",
+            "wind_speed": "0",
+            "wind_scale": "0",
+            "humidity": "69",
+            "visibility": "4.0",
+            "pressure": "1017.9",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-17T23:47:00+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "175",
+                    "pm25": "132",
+                    "pm10": "244",
+                    "so2": "37",
+                    "no2": "108",
+                    "co": "1.751",
+                    "o3": "56",
+                    "last_update": "2015-10-17T15:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Clear",
+            "code": "1",
+            "temperature": "19",
+            "feels_like": "22",
+            "wind_direction": "N",
+            "wind_speed": "0",
+            "wind_scale": "0",
+            "humidity": "62",
+            "visibility": "4.0",
+            "pressure": "1016.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-17T22:47:30+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "167",
+                    "pm25": "126",
+                    "pm10": "256",
+                    "so2": "35",
+                    "no2": "111",
+                    "co": "1.734",
+                    "o3": "60",
+                    "last_update": "2015-10-17T14:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Clear",
+            "code": "1",
+            "temperature": "23",
+            "feels_like": "23",
+            "wind_direction": "S",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "47",
+            "visibility": "4.0",
+            "pressure": "1016.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-17T21:47:29+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "154",
+                    "pm25": "115",
+                    "pm10": "255",
+                    "so2": "33",
+                    "no2": "119",
+                    "co": "1.701",
+                    "o3": "60",
+                    "last_update": "2015-10-17T13:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Clear",
+            "code": "1",
+            "temperature": "24",
+            "feels_like": "21",
+            "wind_direction": "SE",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "44",
+            "visibility": "4.0",
+            "pressure": "1016.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-17T20:47:22+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "145",
+                    "pm25": "100",
+                    "pm10": "238",
+                    "so2": "32",
+                    "no2": "125",
+                    "co": "1.69",
+                    "o3": "63",
+                    "last_update": "2015-10-17T12:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Clear",
+            "code": "1",
+            "temperature": "23",
+            "feels_like": "22",
+            "wind_direction": "S",
+            "wind_speed": "3.01",
+            "wind_scale": "1",
+            "humidity": "48",
+            "visibility": "4.0",
+            "pressure": "1016.9",
+            "pressure_rising": "rising",
+            "time_stamp": "2015-10-17T19:48:38+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "128",
+                    "pm25": "88",
+                    "pm10": "203",
+                    "so2": "29",
+                    "no2": "95",
+                    "co": "1.503",
+                    "o3": "94",
+                    "last_update": "2015-10-17T11:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Sunny",
+            "code": "0",
+            "temperature": "24",
+            "feels_like": "23",
+            "wind_direction": "S",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "43",
+            "visibility": "4.0",
+            "pressure": "1015.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-17T18:46:59+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "123",
+                    "pm25": "86",
+                    "pm10": "193",
+                    "so2": "29",
+                    "no2": "82",
+                    "co": "1.462",
+                    "o3": "128",
+                    "last_update": "2015-10-17T10:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        },
+        {
+            "text": "Sunny",
+            "code": "0",
+            "temperature": "26",
+            "feels_like": "26",
+            "wind_direction": "S",
+            "wind_speed": "8.51",
+            "wind_scale": "2",
+            "humidity": "40",
+            "visibility": "5.0",
+            "pressure": "1015.9",
+            "pressure_rising": "steady",
+            "time_stamp": "2015-10-17T17:47:26+08:00",
+            "air_quality": {
+                "city": {
+                    "aqi": "124",
+                    "pm25": "93",
+                    "pm10": "190",
+                    "so2": "34",
+                    "no2": "62",
+                    "co": "1.432",
+                    "o3": "173",
+                    "last_update": "2015-10-17T09:00:00+00:00",
+                    "quality": "Unhealthy"
+                },
+                "stations": null
+            }
+        }
+    ]
+}

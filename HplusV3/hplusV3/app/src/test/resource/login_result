@@ -1,0 +1,20 @@
+{
+  "sessionId": "F39AF8EE-4B38-4FB6-B20A-9ECAA2322FCE",
+  "userInfo": {
+    "userID": 7897,
+    "username": "15800349135",
+    "firstname": "Jin",
+    "lastname": "",
+    "streetAddress": "StreetAddress",
+    "city": "New York",
+    "state": "New York",
+    "zipcode": "30030",
+    "country": "US",
+    "telephone": "",
+    "userLanguage": "en-US",
+    "isActivated": true,
+    "deviceCount": 0,
+    "tenantID": 0
+  },
+  "latestEulaAccepted": true
+}

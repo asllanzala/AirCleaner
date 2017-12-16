@@ -1,0 +1,469 @@
+<resources>
+    <string name="app_name">H Plus</string>
+    <string name="cancel">Cancel</string>
+    <string name="notice">Notice</string>
+    <string name="version">H Plus</string>
+
+    <!--common-->
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="retry">Retry</string>
+    <string name="no_data">No data available</string>
+    <string name="no_network">We are having trouble reaching to internet, please ensure if your smart phone connects to a valid Wi-Fi.</string>
+    <!-- enroll wifi security -->
+    <string name="wapi_router_security_open">Open</string>
+    <string name="wapi_router_security_wep">WEP</string>
+    <string name="wapi_router_security_wpa_aes">WPA AES</string>
+    <string name="wapi_router_security_wpa_tkip">WPA TKIP</string>
+    <string name="wapi_router_security_wpa2_aes">WPA2 AES</string>
+    <string name="wapi_router_security_wpa2_tkip">WPA2 TKIP</string>
+    <string name="wapi_router_security_wpa2_mixed">WPA2 Mixed</string>
+
+    <!-- enrollment -->
+    <string name="enroll_skip">Cancel</string>
+    <string name="enroll_one">1</string>
+    <string name="enroll_two">2</string>
+    <string name="enroll_three">3</string>
+    <string name="enroll_four">4</string>
+    <string name="enroll_title1">Find your device</string>
+    <string name="enroll_title2">Connect to your device</string>
+    <string name="enroll_title3">Connect your device to\nhome Wi-Fi</string>
+    <string name="enroll_title4">Name your device</string>
+    <string name="enroll_scanning">Scanning</string>
+    <string name="enroll_not_found">Air Touch not found.</string>
+    <string name="enroll_found">Your device has been found</string>
+    <string name="enroll_connecting">Connecting</string>
+    <string name="enroll_home_wifi">home WIFI</string>
+    <string name="enroll_open_wifi">Please ensure if your smart phone enables Wi-Fi.</string>
+    <string name="enroll_networks">Available networks</string>
+    <string name="enroll_back">Back</string>
+    <string name="enroll_next">Next</string>
+    <string name="enroll_rescan">Rescan</string>
+    <string name="enroll_password">Password</string>
+    <string name="enroll_hint_ssid">Enter network name</string>
+    <string name="enroll_hint_password">Enter password</string>
+    <string name="enroll_ssid_security">Security</string>
+    <string name="enroll_ssid">SSID</string>
+    <string name="enroll_other_network">Other network</string>
+    <string name="enroll_done">Done</string>
+    <string name="enroll_other">Other&#8230;</string>
+    <string name="enroll_error">Operation failed! Please try again.</string>
+    <string name="enroll_wait">Please wait while we\'re adding your device. This may take about one minute.</string>
+    <string name="enroll_success">Connection succeeded.</string>
+    <string name="email_format_wrong">Email format is wrong</string>
+    <string name="enroll_quit">Do you want to cancel adding device?</string>
+    <string name="quit">Do you want to quit?</string>
+    <string name="enroll_indicate">Press and hold \nWiFi button until hear a chime</string>
+    <string name="not_login">You need to login first before adding device. Login now?</string>
+    <string name="error_code_10">"Invalid Wi-Fi password input for last enrollment. Please ensure you input a correct password.</string>
+    <string name="error_code_20">"The Wi-Fi name you entered last time cannot be found. Make sure to enter a right Wi-Fi name.</string>
+    <string name="error_code_30">"The Wi-Fi name you entered last time cannot be found. Make sure to enter a right Wi-Fi name.</string>
+    <string name="enroll_long_press">Press and Hold</string>
+    <string name="enroll_page0_title_line1_1">Select</string>
+    <string name="enroll_page0_title_line1_2">the product</string>
+    <string name="enroll_page0_title_line2">you want to add</string>
+    <string name="enroll_page1_title_line1"> </string>
+    <string name="enroll_page1_title_line2">WiFi button until hear a chime</string>
+    <string name="enroll_page2_title_line1">Find one</string>
+    <string name="enroll_page2_title_line2">Air Touch-S</string>
+    <string name="enroll_page2_title_line3">Name your device</string>
+    <string name="enroll_page2_title_line4">Home Location</string>
+    <string name="enroll_page2_title_line5">Name your home</string>
+    <string name="enroll_page3_title_line1">Connect Air Touch to</string>
+    <string name="enroll_page3_title_line2">Home WiFi</string>
+    <string name="enroll_password_title1"> </string>
+    <string name="enroll_password_title2">\'s password</string>
+    <string name="enroll_name_done">Done</string>
+    <string name="enroll_selected">Selected</string>
+
+    <!-- user register, login -->
+    <string name="login_email">Email</string>
+    <string name="login_forget_password">Forgot password?</string>
+    <string name="login_remember_password">Remember password</string>
+    <string name="login_new_user">New user</string>
+    <string name="login">Login</string>
+    <string name="log_in">Login</string>
+    <string name="log_out">Logout</string>
+    <string name="log_in_reg">Login/Register</string>
+    <string name="register">Register</string>
+    <string name="registering">Register</string>
+    <string name="register_email">Email (User Account)</string>
+    <string name="register_accept_terms">I have read and agreed the terms</string>
+    <string name="register_nick_name">Nickname</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <!--<string name="register_password_guide">6-30 figures and letters, at least one uppercase\ncharacter and one-->
+    <!--lowercase character.</string>-->
+    <string name="register_password_guide">Password shall contain 6-30 characters include letters or digits.</string>
+    <string name="password_format_wrong">Password format error!</string>
+    <string name="login_password_invalid">Login failed! Invalid mobile number or password!</string>
+    <string name="change_password_invalid">Failed to change password! Invalid old password.</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="password_length_wrong">Password is too short! It must be at least 6 characters.</string>
+    <string name="nickname_format_wrong">Invalid nickname! Cannot use special characters and length must be less than 40 characters.</string>
+
+    <!-- edit home  -->
+    <string name="my_places">My home(s)</string>
+    <string name="set_as_default">Set this home as default</string>
+    <string name="remove_this_home">Remove</string>
+    <string name="rename_this_home">Rename this home</string>
+    <string name="renaming">Renaming</string>
+    <string name="remove_home_fail">Oops! Cannot delete a home with devices enrolled. Please delete devices first to proceed.</string>
+    <string name="add_place">Add home</string>
+    <string name="add_to_home">Add to homes</string>
+    <string name="search_place">Search home location</string>
+    <string name="name_place">Name your home</string>
+    <string name="home_name_empty">Please input correct home name.</string>
+    <string name="city_not_found">This city cannot be found!</string>
+
+    <!-- add device  -->
+    <string name="enroll_fail_msg">Oops! An error occurred when adding device! Please replug power cord and try
+        again.</string>
+    <string name="enroll_gps">Location</string>
+    <string name="enroll_gps_on">Locating</string>
+    <string name="enroll_gps_fail">Not yet located</string>
+    <string name="enroll_select_city">Please select a location</string>
+    <string name="enroll_home">Name your home</string>
+    <string name="enroll_device">Name your device</string>
+    <string name="my_home">My home</string>
+    <string name="my_device">Bedroom’s air purifier</string>
+    <string name="enroll_select">Select</string>
+    <string name="enroll_loading">Loading</string>
+    <string name="adding_home">Adding home</string>
+    <string name="deleting_home">Deleting home</string>
+    <string name="adding_device">Adding device</string>
+    <string name="checking_device">Checking device</string>
+    <string name="add_device">Add device</string>
+    <string name="add_device_fail">Failed to add device!</string>
+    <string name="delete_device_success">Device is successfully deleted!</string>
+    <string name="delete_device_fail">Failed to delete device!</string>
+    <string name="device_not_alive">The device is not connected to internet.This operation will not succeed. Please exit and try to add device again. At that time, you would receive error log why operation failed last time.</string>
+    <string name="device_not_control">Remote control has been disabled!</string>
+    <string name="device_not_on">Turn on device first!</string>
+    <string name="select_location">Select location</string>
+    <string name="search">Search&#8230;</string>
+    <string name="gps">Location:</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="select_city">Please select location first.</string>
+    <string name="max_home">You have reached the limit number of home, please select a home that already exists.</string>
+    <string name="max_home2">You\'ve already reached the maximum number of homes!</string>
+    <string name="same_home">This name has been used! Please use another one.</string>
+    <string name="max_device">You have reached the maximum number of devices!</string>
+    <string name="device_already_registered">"The device has been registered by you. Please click \"Continue\" to change home Wi-Fi password. Click \"No\" to return home page to check device status."</string>
+    <string name="device_already_registered_by_another">The device is already registered!</string>
+    <string name="device_registered">The device is already registered.</string>
+    <string name="network_retry">Cannot access to internet! Please connect to working Wi-Fi or cellular network.</string>
+
+    <!-- control device  -->
+    <string name="control_auto">Auto</string>
+    <string name="control_quick">Quick</string>
+    <string name="control_silent">Quiet</string>
+    <string name="control_manual">Manual</string>
+    <string name="control_sleep">Sleep</string>
+
+    <string name="device_offline">Device is offline.</string>
+    <string name="device_control">Connecting device... Please wait.</string>
+    <string name="input_quick">Please slow down. Control is too frequent!</string>
+    <string name="control_timeout">Operation time out! Please try again.</string>
+    <string name="wait_for_connection">Waiting for connection.</string>
+    <string name="arriving_home">Preparing for your arrival at</string>
+    <string name="clean_time_hour">Clean up finished in %1$d h</string>
+    <string name="clean_time_minute">Clean up finished in %1$d mins</string>
+
+    <!-- device status -->
+    <string name="device_auto">Auto</string>
+    <string name="device_quick">Quick</string>
+    <string name="device_sleep">Sleep</string>
+    <string name="device_silent">Silent</string>
+    <string name="device_pm25">PM2.5</string>
+
+    <!--filter-->
+    <string name="firmware_version">Firmware version</string>
+    <string name="filter_status">Filter Remaining</string>
+    <string name="buy_it">Buy it</string>
+    <string name="pre_filter">Pre-filter</string>
+    <string name="pm25_filter">HEPA filter</string>
+    <string name="hisiv_filter">HiSiv filter</string>
+    <string name="hisiv_450_filter">HiSivTM composite filter</string>
+    <string name="filter_instruction">Filter instruction</string>
+    <string name="no_need_to_buy">No need to buy</string>
+    <string name="pre_filter_instruction">It can filter hair and large particles. It\'s helpful to extend the life of
+        other filters.</string>
+    <string name="pm25_filter_instruction">It can effectively filter PM2.5 and PM0.3 particles. High capacity and low resistance.</string>
+    <string name="hisiv_filter_instruction">It can filter multiple harmful gases (e.g., Formaldehyde). It keeps high effiency even in humid environment.</string>
+    <string name="hisiv_450_filter_instruction">HiSivTM composite filter can effectively filter particulate matter and formaldehyde.</string>
+    <string name="pre_filter_suggestion">The pre-filter only needs to be replaced if damaged.
+        Otherwise please follow the instructions in the manual and clean it regularly.</string>
+
+    <!--menu-->
+    <string name="places_care">My home(s)</string>
+    <string name="edit_places">Edit</string>
+    <string name="user_guide">User guide</string>
+    <string name="eula">Privacy Policy And EULA</string>
+    <string name="change_password">Change password</string>
+    <string name="change_password_success">Password changed successfully!</string>
+    <string name="reset_password_success">Reset password successfully!</string>
+    <string name="login_ongoing">Auto login now. Please wait.</string>
+
+    <!-- gps page -->
+    <string name="tell_air_touch">Set</string>
+    <string name="tell_success">Setting time succeeded.</string>
+    <string name="cancel_success">Cancel time succeeded.</string>
+    <string name="cancel_fail">Failed to cancel!</string>
+    <string name="tell_fail">Failed to set time of arriving home!</string>
+    <string name="user_not_login">You need to login first!</string>
+    <string name="load_weather_data">Loading weather data now... Please wait.</string>
+    <string name="weather_data_fail">Failed to get weather data.</string>
+    <string name="suggest_no_mask">No need to wear a respirator.</string>
+    <string name="suggest_mask">Need a respirator!</string>
+    <string name="suggest_outdoor">Suitable for outdoor activity.</string>
+    <string name="suggest_outdoor_bad">Bad for outdoor activity!</string>
+    <string name="suggest_elderly">Suitable for kids and elders to do some outdoor activities.</string>
+    <string name="suggest_elderly_bad">Not suitable for kids and elders to do outdoor activities!</string>
+    <string name="suggest_indoor">It\'s better to stay at home!</string>
+    <string name="set_arrive_home">I will arrive \'%1$s\' at</string>
+
+    <!-- home page -->
+    <string name="current_location">Current location</string>
+    <string name="temp_unit_c">°C</string>
+    <string name="open_device">Please turn on Air Purifier!</string>
+
+    <!--mobile-->
+    <string name="mobile_phone_number">Mobile number</string>
+    <string name="get_sms_code">Get the verification code</string>
+    <string name="sending_sms">Sending SMS...</string>
+    <string name="verification_code">Verification code</string>
+    <string name="sms_arrive">Your SMS should arrive in 60 seconds.</string>
+    <string name="phone_format_wrong">Invalid phone number format!</string>
+    <string name="sms_code_wrong">Invalid verification code!</string>
+    <string name="sms_resend">Resend</string>
+    <string name="sms_submit">Submit</string>
+    <string name="sms_done">Done</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="sms_send_fail">Failed to send out verification code!</string>
+    <string name="mobile_message">We use mobile phone number as a convenient and secure method to register your account. It allows us to verify your identity, link your device with your account, reset your password if needed, and provide better customer care support.</string>
+
+    <!--house-->
+    <string name="offline">Offline</string>
+    <string name="off">Off</string>
+    <string name="speed_low">Low speed</string>
+    <string name="speed_medium">Medium speed</string>
+    <string name="speed_high">High speed</string>
+    <string name="delete_device">Are you sure to delete this device? It may take serveral minutes. Please wait!</string>
+    <string name="deleting_device">Deleting device</string>
+
+    <!--tutorial-->
+    <string name="tutorial_home1">Click on running mode\nindicator to control.</string>
+    <string name="tutorial_home2">Click on the house icon\nand check detailed\nindoor information.</string>
+    <string name="tutorial_filter">Press to see the\n filter instruction.</string>
+    <string name="tutorial_control">Swipe up to view filters\' details.</string>
+    <string name="tutorial_house1">Click on area outside\n the house and go\nback to home page.</string>
+    <string name="tutorial_house2">Press and hold on\nthe device icon\nto un-enroll device.</string>
+
+    <!--emotion pager-->
+    <string name="wechat">Wechat</string>
+    <string name="webo">Webo</string>
+    <string name="in_door_str">Indoor</string>
+    <string name="out_door_str">Outdoor</string>
+    <string name="indoor_bubble_title">Something bad in %1$d</string>
+    <string name="tell_someone_care">Tell someone you care</string>
+    <string name="pm25_str">PM2.5</string>
+    <string name="honeywell">Honeywell</string>
+    <string name="air_cleaner">Smart Air Touch</string>
+    <string name="yesterday_str">Yesterday</string>
+    <string name="this_week_str">This week</string>
+    <string name="this_month_str">This month</string>
+    <string name="so_far_str">So far</string>
+    <string name="airtouch_collected_tip">Air Touch Collected</string>
+    <string name="disclaimer_first">The PAHs and Lead concentrations provided are the average level of this country.</string>
+    <string name="disclaimer_second">Actual local concentration may vary by region.</string>
+    <string name="collection_str_tip"> <Data><![CDATA[ <font size="16" color="#ffffff">Air Touch collected</font> <b><font color="#ffff00"> <big> %1$d </big></font></b> <b><font size="16" color="#ffff00">mg</font></b>  <font size="16" color="#ffffff">particles</font> ]]></Data></string>
+    <string name="bubble_title_str">Contain Carcinogen PAHs</string>
+    <string name="bubble_path_contain">Normally, smoking will generate carcinogen PAHs which can cause health effects!</string>
+    <string name="bubble_path_cigarettes"> <Data><![CDATA[<font size="16" color="#ffffff">Carcinogen is about content</font>  <b><font color="#ffff00"> <big> %1$s </big></font></b> <font size="16" color="#ffffff">cigarettes</font>]]></Data></string>
+    <string name="bubble_car_lead">
+        <Data><![CDATA[<font size="16" color="#ffffff">Lead content is about</font>  <b><font color="#ffff00"> <big> %1$s </big></font></b> <font size="16" color="#ffffff">seconds of fumes from a 1.8L idle car</font>]]></Data></string>
+    <string name="paths_name">PAHs</string>
+    <string name="paths_orientation">Polycyclic aromatic hydrocarbons (PAHs) are products of combustion including coal and coke burners, diesel-fueled engines, grilled meats and cigarettes. PAHs are toxic to aquatic life, contribute to global warming and are suspected human carcinogens. Multiple studies have linked breast cancer incidence with PAH exposure</string>
+    <string name="lead_name">Lead</string>
+    <string name="lead_orientation">Lead is a highly poisonous heavy metal, affecting almost every organ and system in the body. Exposure to lead can cause nephropathy, colic-like abdominal pains, weakness in wrists, ankles and memory. Lead damages the nervous system in young children and causes blood and brain disorders even under low-level exposure.</string>
+    <string name="emotion_no_device_tip">Here shows the performing data if you have device.</string>
+    <string name="emotion_no_network">No Internet access! Please check your network.</string>
+
+    <string name="not_get_pmvalue_tip">". . ."</string>
+
+    <string name="emotional_enroll_now_str">"Enroll Now"</string>
+    <string name="emotional_cancel_str">"Cancel"</string>
+    <string name="emotional_nodevice_enroll_str">"Please enroll a device to enjoy our customized service."</string>
+
+    <!--india -->
+    <string name="india_no_log_reminder1">Please enroll a device to enjoy</string>
+    <string name="india_no_log_reminder2">our customized service.</string>
+
+    <!-- weather -->
+    <string name="weather_today">Today</string>
+    <string name="weather_recent">Next 7 days</string>
+    <string name="weather_aqi">AQI</string>
+    <string name="weather_pm25">PM2.5</string>
+    <string name="weather_temperature">%1$d&#8211;%2$d°C</string>
+    <string name="weather_tomorrow">Tomorrow</string>
+    <string name="weather_default">Thunderstorms</string>
+    <string name="weather_default_aqi">50</string>
+    <string name="weather_default_pm25">30</string>
+    <string name="weather_default_temperature">20&#8211;34°C</string>
+    <string name="weather_7day_mon">Mon.</string>
+    <string name="weather_7day_tue">Tue.</string>
+    <string name="weather_7day_wed">Wed.</string>
+    <string name="weather_7day_thu">Thu.</string>
+    <string name="weather_7day_fri">Fri.</string>
+    <string name="weather_7day_sat">Sat.</string>
+    <string name="weather_7day_sun">Sun.</string>
+
+    <!-- on travel reminder -->
+    <string name="ontravel_reminder_text_title">"Hey,"</string>
+    <string name="ontravel_reminder_text_content1">"It seems you are on travel!"</string>
+    <string name="ontravel_reminder_text_content2">"Would you like to check the weather and air quality of current location?"</string>
+    <string name="ontravel_yes">Yes</string>
+    <string name="ontravel_no">No</string>
+
+    <string name="ontravel_title">On Travel</string>
+
+    <string name="gps_fail_content1">Oops!</string>
+    <string name="gps_fail_content2">Locating failed!</string>
+    <string name="gps_fail_refresh">Refresh</string>
+    <string name="gps_fail_manualadd">Add Home</string>
+
+    <!-- group -->
+    <string name="group_control_device_mode_home">Home</string>
+    <string name="group_control_device_mode_away">Away</string>
+    <string name="group_control_device_mode_sleep">Sleep</string>
+    <string name="group_control_time_12_00">12:00</string>
+    <string name="group_control_time_24_00">24:00</string>
+    <string name="group_control_running_mode">Running Mode:&#160;</string>
+    <string name="group_control_device_name_circle_icon">&#183;</string>
+    <string name="group_name_exist">This group name is already taken. Please enter a different one.</string>
+    <string name="filter_no_authorize">Failed to load filter status!</string>
+    <string name="version_title">New version available: %s</string>
+    <string name="update_now">Update now</string>
+    <string name="remind_later">Remind me later</string>
+    <string name="part_device_failed">Group control partially failed!</string>
+    <string name="all_device_failed">Group control failed!</string>
+    <string name="updating_group_name">Updating group name...</string>
+    <string name="group_master_not_delete">Please ungroup this master device and then try to delete it. Please note that ungroup the only master device in a group will delete the group.</string>
+
+    <!-- all device -->
+    <string name="all_device">All Devices</string>
+    <string name="selection_group">Group</string>
+    <string name="selection_unGroup">Ungroup</string>
+    <string name="selection_delete">Delete</string>
+    <string name="selection_default">Default</string>
+    <string name="group">Group</string>
+
+    <string name="setting_clock">Setting clock...</string>
+    <string name="canceling_clock">Cancelling clock...</string>
+
+    <string name="turn_on_all_deivce_txt">Turn on</string>
+    <string name="no_need_turnon_alldeivce_txt">No</string>
+    <string name="turnon_condition_title">Poor Air Quality!</string>
+    <string name="turnon_condition_content">Poor indoor or outdoor air quality is detected in the location(s) of device(s) below! Turn them on?</string>
+
+    <string name="airpremium_filter_des">It can effectively filter PM2.5 particles and formaldehyde.</string>
+    <string name="airpremium_filter_title">PolyTech filter</string>
+    <string name="title_activity_baidu_push_remind">BaiduPushRemindActivity</string>
+    <string name="no_authorize">Abnormal Filter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensor_error">检测到您的Air touch的PM2.5传感器损坏，设备无法正常工作！</string>
+    <!--<string name="sensor_error">The PM2.5 sensor of your device does not work! </string>-->
+    <string name="sensor_support">请联系客服400-7204321寻求技术支持。</string>
+    <!--<string name="sensor_support">Please call customer care 400-7204321 for technical support.</string>-->
+    <!--<string name="get_it">Got it</string>-->
+    <string name="get_it">知道了</string>
+    <string name="gps_fail_content3">哎呀!</string>
+    <string name="alldevice_sensor_error">Error</string>
+    <string name="page_sensor_error">Sensor Error</string>
+
+    <string name="arrive_home_text">I will arrive \'%1$s\' at</string>
+    <string name="arrive_time_in30min">Cannot set arrival time within 30 minutes. Please set a longer time.</string>
+
+    <string name="current_gps_fail">Unlocated</string>
+    <string name="tvoc450_good">Good</string>
+    <string name="tvoc450_average">Avg</string>
+    <string name="tvoc450_poor">Poor</string>
+
+    <string name="smartlink_inputpassword_str">Please enter the password of your Wi-Fi and then tap Next button.</string>
+    <string name="smartlink_password_str">Enter your password here.</string>
+    <string name="smartlink_connecting">Device is connecting to your router. Please wait.</string>
+    <string name="smartlink_no_wifi">Please connect to Wi-Fi first!</string>
+    <string name="smartlink_access_network">Current connected Wi-Fi cannot access internet! Please check and try again.</string>
+    <string name="scan_title">Align device QR code within frame to scan.</string>
+    <string name="no_data_device">Unknown device</string>
+    <string name="no_support_smart_link">This device doesn’t support Wi-Fi. It cannot be enrolled to app.</string>
+
+    <string name="smart_please_tv">Please </string>
+    <string name="smart_press_tv">press and hold </string>
+    <string name="smart_wifi_tv">Wi-Fi button on device for </string>
+    <string name="smart_time_tv">3 seconds </string>
+    <string name="smart_hint_tv">until hear a chime.</string>
+    <string name="smart_choose_title">Press and hold Wi-Fi button on device for 3 seconds until hear a chime.</string>
+
+    <string name="connect_timeout_title1">Connection Timeout</string>
+
+    <string name="connect_timeout_content1">You can try solutions as below or call Customer Care directly.</string>
+
+    <string name="connect_timeout_content3">1. You may entered a wrong password. Please tap Retry button in the bottom to enter password again.</string>
+
+    <string name="connect_timeout_content4">2. Please check if the blue button in the picture below is light up. If not, please press and hold the button for 3 seconds until hear a chime, and then retry.</string>
+
+    <string name="connect_timeout_content5">"3. You can also use AP mode to enrol your device"</string>
+
+    <string name="connect_timeout_retry">Retry</string>
+
+    <string name="connect_timeout_contact">Customer Care</string>
+
+    <string name="connect_timeout_to_ap">Press and hold Wi-Fi button on device for 10 seconds until hear two chimes</string>
+
+    <string name="device_register_id">This device is already registered by you. Wi-Fi configuration has been updated successfully.</string>
+
+    <string name="samart_next_btn">Already heard a chime</string>
+
+    <string name="airtouch_x_str">Air Touch-X</string>
+    <string name="airtouch_p_str">Air Touch-P</string>
+
+    <string name="airtouch_s_str">Air Touch-S</string>
+    <string name="smart_scan_hint">You can find QR code on package, user manual and device. Please don’t scan under strong light.</string>
+    <string name="smart_permission_deny_title">Camera Access</string>
+    <string name="smart_permission_deny_messege">Allow H Plus access to your camera in system privacy settings to start scanning QR code.</string>
+    <string name="permission_deny">Some Permission is Denied.</string>
+    <string name="phone_call_permission_deny">Allow H Plus access to phone services in system settings to dial.</string>
+    <string name="already_registed">Registration failed! Mobile number already exists. Please login directly.</string>
+    <string name="continue_str">Continue</string>
+    <string name="sms_hint">Your SMS should arrive in 60 seconds. If there is a delay or you require support, please call Customer Care 1800-103-4761 between 9am – 6pm, Mon-Sat.</string>
+
+    <string name="bubble_lead_contain">Normally, fumes of cars contain heavy metal lead which may increase blood lead level. This will cause health effects!</string>
+    <string name="bubble_lead_title_str">Contain Heavy Metal Lead</string>
+
+    <string name="disclaimer_all">The PAHs and Lead concentrations provided are the average level of this country.Actual local concentration may vary by region.</string>
+
+    <string name="no_located_permission_title">Unlocated</string>
+    <string name="no_located_permission_1">Cannot access to location services</string>
+    <string name="no_located_permission_2">Allow H Plus access to Location Services in system Settings to determine your current location.</string>
+
+    <string name="no_located_permission_scantxt">Cannot access to location services, allow H Plus access to Location Services in System Settings to continue the enrollment.</string>
+    <string name="gps_no_open">Location services off, turn on Location Services in System Settings to continue the enrollment.</string>
+    <string name="go_to_setting">Settings</string>
+
+    <string name="errcode_success">Share successfully</string>
+    <string name="errcode_cancel">Share cancel</string>
+    <string name="errcode_deny">Share refused</string>
+    <string name="errcode_unknown">Share return</string>
+    <string name="errcode_fail">Share failed</string>
+    <string name="weixin_nomount">You haven\'t installed WeChat</string>
+
+    <string name="no_data_geterror">Network is not stable. Please go back to last screen and try again.</string>
+    <string name="enroll_loading_fail">Operation failed! You probably input a wrong Wi-Fi password, or network of your phone is not stable. Please try to enroll device again. If it still doesn\'t work, please call customer care.</string>
+
+    <string name="sideitem_customer_care">Customer care</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include android:id="@+id/city_title_id" layout="@layout/city_title" />
+
+    <RelativeLayout
+        android:layout_below="@id/city_title_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@+id/reminder_id"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="260dip"
+            android:layout_height="360dip">
+
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="50dip"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="@string/ontravel_reminder_text_content1"
+                android:textColor="@color/white_85" />
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/content1"
+                android:layout_alignParentLeft="true"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginTop="10dip"
+                android:textSize="20sp"
+                android:text="@string/ontravel_reminder_text_content2"
+                android:textColor="@color/white_85" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/okyes_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dip"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/ok_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/ontravel_yes"
+                    android:textColor="@color/white_90"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/no_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/ontravel_no"
+                    android:textColor="@color/white_90"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

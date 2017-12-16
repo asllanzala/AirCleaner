@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+application
+ADDED from AndroidManifest.xml:21:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:25:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:9
+	android:icon
+		ADDED from AndroidManifest.xml:24:9
+	android:theme
+		ADDED from AndroidManifest.xml:26:9
+	android:name
+		ADDED from AndroidManifest.xml:22:9
+activity#com.honeywell.hch.airtouch.application.activity.welcomepage.StartActivity
+ADDED from AndroidManifest.xml:28:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:30:13
+	android:theme
+		ADDED from AndroidManifest.xml:33:13
+	android:name
+		ADDED from AndroidManifest.xml:29:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:34:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:27
+activity#com.honeywell.hch.airtouch.application.airtouch.location.MainActivity
+ADDED from AndroidManifest.xml:40:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:42:13
+	android:theme
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:43:13
+activity#com.honeywell.hch.airtouch.application.activity.devicepage.HouseActivity
+ADDED from AndroidManifest.xml:47:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:49:13
+	android:theme
+		ADDED from AndroidManifest.xml:52:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:50:13
+activity#com.honeywell.hch.airtouch.application.activity.devicepage.DeviceActivity
+ADDED from AndroidManifest.xml:54:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:56:13
+	android:theme
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:57:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.UserLoginActivity
+ADDED from AndroidManifest.xml:61:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:66:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:65:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:64:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.UserRegisterActivity
+ADDED from AndroidManifest.xml:68:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:73:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:72:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:71:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.MobileGetSmsActivity
+ADDED from AndroidManifest.xml:75:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:80:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:78:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.MobileVerifySmsActivity
+ADDED from AndroidManifest.xml:82:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:87:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:86:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:83:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:85:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.MobileDoneActivity
+ADDED from AndroidManifest.xml:89:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:94:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:93:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:91:13
+	android:name
+		ADDED from AndroidManifest.xml:90:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:92:13
+activity#com.honeywell.hch.airtouch.application.activity.userpage.ForgetPasswordActivity
+ADDED from AndroidManifest.xml:96:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:101:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:100:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:97:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:99:13
+activity#com.honeywell.hch.airtouch.application.airtouch.enrollment.LocationAndDeviceRegisterActivity
+ADDED from AndroidManifest.xml:103:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:107:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:106:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:105:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+activity#com.honeywell.hch.airtouch.application.airtouch.enrollment.EditGPSActivity
+ADDED from AndroidManifest.xml:109:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:113:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:112:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.honeywell.hch.airtouch.app.airtouch.controller.enrollment.EnrollWelcomeActivity
+ADDED from AndroidManifest.xml:115:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:120:13
+	android:label
+		ADDED from AndroidManifest.xml:118:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:119:13
+activity#com.honeywell.hch.airtouch.app.airtouch.controller.enrollment.EnrollConnectDeviceActivity
+ADDED from AndroidManifest.xml:121:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:124:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:123:13
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+activity#com.honeywell.hch.airtouch.app.airtouch.controller.enrollment.EnrollConnectWifiActivity
+ADDED from AndroidManifest.xml:125:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:128:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:127:13
+	android:name
+		ADDED from AndroidManifest.xml:126:13
+activity#com.honeywell.hch.airtouch.app.airtouch.controller.enrollment.EnrollWifiPasswordActivity
+ADDED from AndroidManifest.xml:129:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:132:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:131:13
+	android:name
+		ADDED from AndroidManifest.xml:130:13
+activity#com.honeywell.hch.airtouch.application.airtouch.manual.ManualActivity
+ADDED from AndroidManifest.xml:133:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:136:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:135:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+activity#com.honeywell.hch.airtouch.application.activity.TestActivity
+ADDED from AndroidManifest.xml:137:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:140:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:139:13
+	android:name
+		ADDED from AndroidManifest.xml:138:13
+service#com.honeywell.hch.airtouch.app.airtouch.controller.device.DeviceRunStatusService
+ADDED from AndroidManifest.xml:142:9
+	android:name
+		ADDED from AndroidManifest.xml:142:18
+intent-filter#com.honeywell.air.app.service.DeviceRunStatusService
+ADDED from AndroidManifest.xml:143:13
+action#com.honeywell.air.app.service.DeviceRunStatusService
+ADDED from AndroidManifest.xml:144:17
+	android:name
+		ADDED from AndroidManifest.xml:144:25
+receiver#com.honeywell.hch.airtouch.framework.notification.MorningAlarmReceiver
+ADDED from AndroidManifest.xml:151:9
+	android:process
+		ADDED from AndroidManifest.xml:153:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+receiver#com.honeywell.hch.airtouch.framework.notification.NightAlarmReceiver
+ADDED from AndroidManifest.xml:154:9
+	android:process
+		ADDED from AndroidManifest.xml:156:13
+	android:name
+		ADDED from AndroidManifest.xml:155:13
+service#com.baidu.location.f
+ADDED from AndroidManifest.xml:159:9
+	android:process
+		ADDED from AndroidManifest.xml:162:13
+	android:enabled
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from AndroidManifest.xml:164:9
+	android:name
+		ADDED from AndroidManifest.xml:165:13
+	android:value
+		ADDED from AndroidManifest.xml:166:13
+meta-data#UMENG_APPKEY
+ADDED from AndroidManifest.xml:171:9
+	android:name
+		ADDED from AndroidManifest.xml:172:13
+	android:value
+		ADDED from AndroidManifest.xml:173:13
+meta-data#UMENG_CHANNEL
+ADDED from AndroidManifest.xml:174:9
+	android:name
+		ADDED from AndroidManifest.xml:175:13
+	android:value
+		ADDED from AndroidManifest.xml:176:13
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from AndroidManifest.xml:178:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:184:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:182:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:180:13
+	android:theme
+		ADDED from AndroidManifest.xml:183:13
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:181:13
+activity#com.honeywell.hch.airtouch.framework.share.wxapi.WXEntryActivity
+ADDED from AndroidManifest.xml:185:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:189:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:187:13
+	android:theme
+		ADDED from AndroidManifest.xml:190:13
+	android:exported
+		ADDED from AndroidManifest.xml:188:13
+	android:name
+		ADDED from AndroidManifest.xml:186:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

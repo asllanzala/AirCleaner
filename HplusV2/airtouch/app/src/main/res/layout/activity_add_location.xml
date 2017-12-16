@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/setting_bg">
+
+    <LinearLayout
+        android:id="@+id/add_home_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="@color/title_bar_bg"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/add_home_back_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp"
+                android:src="@drawable/back"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/add_home_title_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@string/add_place"
+            android:textColor="@color/enroll_grey"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/search_place_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_home_title_layout"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/search_place"
+        android:textSize="16sp"
+        android:textColor="@color/my_place_text"/>
+
+    <ImageView
+        android:id="@+id/search_place_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_place_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/search_icon"/>
+
+    <com.honeywell.hch.airtouchv2.framework.view.AirTouchEditText
+        android:id="@+id/search_place_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_place_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <ImageView
+        android:id="@+id/edit_text_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_place_et"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line"/>
+
+    <ListView
+        android:id="@+id/home_city_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/edit_text_line1"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dp">
+    </ListView>
+
+    <ImageView
+        android:id="@+id/split_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_city_listView"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/menu_line"/>
+
+    <LinearLayout
+        android:id="@+id/name_place_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/split_line"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/name_place_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/name_place"
+            android:textSize="16sp"
+            android:textColor="@color/my_place_text"/>
+
+        <com.honeywell.hch.airtouchv2.framework.view.AirTouchEditText
+            android:id="@+id/name_place_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <ImageView
+            android:id="@+id/edit_text_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_home_button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/enroll_next_button"
+        android:text="@string/add_to_home"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

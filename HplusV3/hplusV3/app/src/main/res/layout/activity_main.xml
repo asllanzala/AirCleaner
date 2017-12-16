@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/parent_view_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/universe_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+    <com.honeywell.hch.airtouchv3.framework.view.CustomViewPager
+        android:id="@+id/main_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+                android:id="@+id/side_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:padding="10dp"
+                android:src="@drawable/side"/>
+
+
+            <Button
+                android:id="@+id/switch_time"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/transparent"/>
+
+    <Button
+        android:id="@+id/debug_btn_id"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="For Debug"
+        android:background="@drawable/umeng_common_gradient_red"/>
+
+</RelativeLayout>
+
+

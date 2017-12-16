@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.honeywell.hch.airtouchv3.app.dashboard.controller.location.BlurBackgroundView
+        android:id="@+id/home_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:id="@+id/version_reminder_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/push_sensor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:alpha="90"
+                android:textColor="@color/white_90"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/push_sensor_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/push_sensor_title"
+                android:layout_marginTop="30dip"
+                android:textColor="@color/white_90"
+                android:textSize="24sp" />
+
+            <com.honeywell.hch.airtouchv3.app.airtouch.view.TypeTextView
+                android:id="@+id/push_sensor_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/push_sensor_content"
+                android:layout_marginTop="25dip"
+                android:clickable="true"
+                android:onClick="doClick"
+                android:textColor="@color/white_90"
+                android:textSize="24sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/push_sensor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/version_update_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:onClick="doClick"
+                android:text="@string/get_it"
+                android:textColor="@color/white_90"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

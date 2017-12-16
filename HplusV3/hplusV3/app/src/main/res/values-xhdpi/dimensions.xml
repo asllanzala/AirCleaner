@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubblecontent_top_margin">30dp</dimen>
+    <dimen name="bubble_scroll_height">130dp</dimen>
+    <dimen name="popwindow_width">300dp</dimen>
+    <dimen name="popwidow_heightoffer">10dp</dimen>
+    <dimen name="bubble_topmargin">35dp</dimen>
+
+    <dimen name="bubble_leftmargin">80dp</dimen>
+    <dimen name="bubble_rightmargin">100dp</dimen>
+
+    <dimen name="home_titile_size">20sp</dimen>
+    <dimen name="city_name_size">13sp</dimen>
+
+    <dimen name="device_margin">40dip</dimen>
+    <dimen name="device_title_heght">130dip</dimen>
+    <dimen name="scroll_height">320dip</dimen>
+    <dimen name="turn_on_margin_bottom">20dip</dimen>
+    <dimen name="title_margin_top">115dip</dimen>
+
+    <dimen name="home_deivce_bottom">75dip</dimen>
+
+    <dimen name="home_deivce_dot_left">20dip</dimen>
+</resources>

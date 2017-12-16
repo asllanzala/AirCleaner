@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/weather_chart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <include
+        android:id="@+id/weather_outdoor"
+        layout="@layout/weather_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_chart_title"/>
+
+    <com.honeywell.hch.airtouchv3.app.airtouch.view.weatherchart.Weather7DaysView
+        android:id="@+id/weather_7days_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <com.honeywell.hch.airtouchv3.app.airtouch.view.weatherchart.WeatherTodayView
+        android:id="@+id/weather_today_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
